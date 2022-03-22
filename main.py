@@ -24,35 +24,48 @@ class NeuralNetwork(nn.Module):
         super(NeuralNetwork, self).__init__()
         self.flatten = nn.Flatten()
         self.linear_relu_stack = nn.Sequential(
-            nn.Linear(7*14*14, 512),
-            nn.ReLU(),
-            nn.Linear(512, 512),
-            nn.ReLU(),
+            nn.Linear(7*27*27, 2512),
+            nn.Tanh(),
+            nn.Linear(2512, 512),
+            nn.Tanh(),
             nn.Linear(512, 10),
             nn.Tanh()
         )
-        self.grd = Tensor([
-            [[[1,1],[0,0]]],
-            [[[0,0],[1,1]]],
-            [[[1,0],[1,0]]],
-            [[[0,1],[0,1]]],
-            [[[1,0],[0,0]]],
-            [[[0,0],[0,1]]],
-            [[[0,1],[1,0]]],
+        self.grdB = Tensor([0.5,0.5,0.5,0.5,0.5,0.5,0.0,])
+        self.grdW = Tensor([
+            [[[+0.5,-0.5],
+              [ 0.0, 0.0]]],
+            [[[ 0.0, 0.0],
+              [+0.5,-0.5]]],
+            [[[+0.5, 0.0],
+              [-0.5, 0.0]]],
+            [[[ 0.0,+0.5],
+              [ 0.0,-0.5]]],
+            [[[+0.5, 0.0],
+              [ 0.0,-0.5]]],
+            [[[ 0.0,+0.5],
+              [-0.5, 0.0]]],
+            [[[0.25,0.25],
+              [0.25,0.25]]],
         ])
 
     def forward(self, x):
-        x = F.conv2d(x, self.grd, stride=2, padding=0 )
+        x = F.conv2d(x, self.grdW, self.grdB, stride=1, padding=0)
         x = self.flatten(x)
         logits = self.linear_relu_stack(x)
         return logits
 
 
-def train(dataloader, model, loss_fn, optimizer, device):
+def train(dataloader, model, loss_fn, optimizer, device,mi):
     size = len(dataloader.dataset)
     model.train()
     for batch, (X, y) in enumerate(dataloader):
         X, y = X.to(device), y.to(device)
+
+        if mi:
+            bx = batch*64
+            for i in range(X.shape[0]):
+                mkimage(bx+i,X[i,0,].numpy(),"train",y[i])
 
         # Compute prediction error
         pred = model(X)
@@ -103,7 +116,7 @@ def train_and_save(training_data,test_data,batch_size,device,epochs,fname):
 
     for t in range(epochs):
         print(f"Epoch {t + 1}\n-------------------------------")
-        train(train_dataloader, model, loss_fn, optimizer, device)
+        train(train_dataloader, model, loss_fn, optimizer, device, t==0)
         test(test_dataloader, model, loss_fn)
     print("Training Done!")
 
@@ -119,23 +132,12 @@ def read_and_run(fname,test_data,device):
     # RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument mat1 in method wrapper_addmm)
     print(f"Loaded PyTorch Model State from {fname}")
     print(model)
-
-    classes = [
-        "T-shirt/top",
-        "Trouser",
-        "Pullover",
-        "Dress",
-        "Coat",
-        "Sandal",
-        "Shirt",
-        "Sneaker",
-        "Bag",
-        "Ankle boot",
-    ]
+    classes = test_data.classes
+    print(classes)
 
     for i in range(test_data.data.size(dim=0)):
         x, y = test_data[i][0], test_data[i][1]
-        mkimage(i,x[0,].numpy(),"test")
+        mkimage(i,x[0,].numpy(),"test",y)
         with torch.no_grad():
             pred = model(x.expand(1,-1,-1,-1))
             predicted, actual = int(pred[0].argmax(0)), y
@@ -145,11 +147,11 @@ def read_and_run(fname,test_data,device):
                 print(f'{i:5d} Predicted: "{classes[predicted]}" {pred[0,predicted]:3.1f}, Actual: "{classes[actual]}" {pred[0,actual]:3.1f}')
 
 
-def mkimage(i,bmp,prefix):
+def mkimage(i,bmp,prefix,suffix):
     import skimage.io
     import numpy as np
 
-    fname = "image\\" + prefix + f"{i:05d}" + ".png"
+    fname = f"image\\{prefix}\\{i:05d}-{suffix}.png"
     if os.path.exists(fname):
         return
     h = bmp.shape[1]
