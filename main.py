@@ -15,6 +15,7 @@ def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
+
 # Define model
 class NeuralNetwork(nn.Module):
 
@@ -33,6 +34,7 @@ class NeuralNetwork(nn.Module):
         x = self.flatten(x)
         logits = self.linear_relu_stack(x)
         return logits
+
 
 def train(dataloader, model, loss_fn, optimizer, device):
     size = len(dataloader.dataset)
@@ -53,6 +55,7 @@ def train(dataloader, model, loss_fn, optimizer, device):
             loss, current = loss.item(), batch * len(X)
             print(f"loss: {loss:>7f}  [{current:>5d}/{size:>5d}]")
 
+
 def test(dataloader, model, loss_fn):
     size = len(dataloader.dataset)
     num_batches = len(dataloader)
@@ -68,7 +71,8 @@ def test(dataloader, model, loss_fn):
     correct /= size
     print(f"Test Error: \n Accuracy: {(100*correct):>0.1f}%, Avg loss: {test_loss:>8f} \n")
 
-def train_and_save(training_data,test_data,device,epochs,fname):
+
+def train_and_save(training_data,test_data,batch_size,device,epochs,fname):
 
     # Create the model
     model = NeuralNetwork().to(device)
@@ -94,6 +98,7 @@ def train_and_save(training_data,test_data,device,epochs,fname):
     torch.save(model.state_dict(), fname)
     print(f"Saved PyTorch Model State to {fname}")
 
+
 def read_and_run(fname,test_data,device):
 
     model = NeuralNetwork().eval()
@@ -118,13 +123,35 @@ def read_and_run(fname,test_data,device):
 
     for i in range(test_data.data.size(dim=0)):
         x, y = test_data[i][0], test_data[i][1]
+        mkimage(i,x[0,].numpy(),"test")
         with torch.no_grad():
-            pred = model(x)
+            pred = model(x.expand(1,-1,-1,-1))
             predicted, actual = int(pred[0].argmax(0)), y
             if predicted == actual:
                 print(f'{i:5d} Matched:   "{classes[predicted]}" {pred[0,predicted]:3.1f}')
             else:
                 print(f'{i:5d} Predicted: "{classes[predicted]}" {pred[0,predicted]:3.1f}, Actual: "{classes[actual]}" {pred[0,actual]:3.1f}')
+
+
+def mkimage(i,bmp,prefix):
+    import skimage.io
+    import numpy as np
+
+    fname = "image\\" + prefix + f"{i:05d}" + ".png"
+    if os.path.exists(fname):
+        return
+    h = bmp.shape[1]
+    w = bmp.shape[0]
+    img = np.zeros((w, h, 3), dtype="uint8")
+    for y in range(h):
+        for x in range(w):
+            g = int(np.floor(bmp[x,y]*255))
+            img[x,y,] = [g, g, g]
+    try:
+        skimage.io.imsave(fname, img, check_contrast=False)
+    except Exception:
+        print(f"Failed to save \"{fname}\".")
+
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
@@ -156,7 +183,7 @@ if __name__ == '__main__':
 
     # train the model
     if not os.path.exists(model_pth):
-        train_and_save(training_data,test_data,device, epochs, model_pth)
+        train_and_save(training_data, test_data, batch_size, device, epochs, model_pth)
 
     # run the model
     read_and_run(model_pth,test_data,device)
