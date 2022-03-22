@@ -1,8 +1,9 @@
 # This is a sample Python script fom https://pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html.
 
 import torch
-from torch import nn
+from torch import nn, Tensor
 from torch.utils.data import DataLoader
+import torch.nn.functional as F
 from torchvision import datasets
 from torchvision.transforms import ToTensor
 import os.path
@@ -23,14 +24,25 @@ class NeuralNetwork(nn.Module):
         super(NeuralNetwork, self).__init__()
         self.flatten = nn.Flatten()
         self.linear_relu_stack = nn.Sequential(
-            nn.Linear(28 * 28, 512),
+            nn.Linear(7*14*14, 512),
             nn.ReLU(),
             nn.Linear(512, 512),
             nn.ReLU(),
-            nn.Linear(512, 10)
+            nn.Linear(512, 10),
+            nn.Tanh()
         )
+        self.grd = Tensor([
+            [[[1,1],[0,0]]],
+            [[[0,0],[1,1]]],
+            [[[1,0],[1,0]]],
+            [[[0,1],[0,1]]],
+            [[[1,0],[0,0]]],
+            [[[0,0],[0,1]]],
+            [[[0,1],[1,0]]],
+        ])
 
     def forward(self, x):
+        x = F.conv2d(x, self.grd, stride=2, padding=0 )
         x = self.flatten(x)
         logits = self.linear_relu_stack(x)
         return logits
