@@ -23,6 +23,7 @@ class NeuralNetwork(nn.Module):
     def __init__(self):
         super(NeuralNetwork, self).__init__()
         self.flatten = nn.Flatten()
+        # Accuracy: 70.9%, Avg loss: 1.445483
         self.linear_relu_stack = nn.Sequential(
             nn.Linear(7*27*27, 2512),
             nn.Tanh(),
