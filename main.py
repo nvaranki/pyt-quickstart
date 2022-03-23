@@ -6,6 +6,7 @@ from torch.utils.data import DataLoader
 import torch.nn.functional as F
 from torchvision import datasets
 from torchvision.transforms import ToTensor
+from torch.nn.modules import Module
 import os.path
 
 # Press Shift+F10 to execute it or replace it with your code.
@@ -17,20 +18,33 @@ def print_hi(name):
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
+class Pow(Module):
+
+    def __init__(self, t: float,
+                 device=None, dtype=None) -> None:
+        factory_kwargs = {'device': device, 'dtype': dtype}
+        super(Pow, self).__init__()
+        self.t = t
+
+    def forward(self, input: Tensor) -> Tensor:
+        return torch.pow(input,self.t)
+
+
 # Define model
 class NeuralNetwork(nn.Module):
 
     def __init__(self):
         super(NeuralNetwork, self).__init__()
         self.flatten = nn.Flatten()
-        # Accuracy: 70.9%, Avg loss: 1.445483
         self.linear_relu_stack = nn.Sequential(
             nn.Linear(7*27*27, 2512),
+            # Pow(2), #  4m: nn.Mish() Accuracy: 75.0%, Avg loss: 0.769570
             nn.Tanh(),
-            nn.Linear(2512, 512),
-            nn.Tanh(),
-            nn.Linear(512, 10),
-            nn.Tanh()
+            # -Linear, -Tanh as 4m # Accuracy: 73.5%, Avg loss: 1.341088
+            nn.Linear(2512, 10),
+            nn.Mish() # 4m: Accuracy: 75.1%, Avg loss: 0.767739
+            # nn.Tanh(), # Accuracy: 70.9%, Avg loss: 1.445483
+            # nn.Sigmoid() # Accuracy: 69.3%, Avg loss: 1.979252
         )
         self.grdB = Tensor([0.5,0.5,0.5,0.5,0.5,0.5,0.0,])
         self.grdW = Tensor([
