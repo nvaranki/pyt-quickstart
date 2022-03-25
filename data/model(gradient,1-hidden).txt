@@ -1,0 +1,1667 @@
+Category Guess Histogram
+========================
+
+Matched
+[831 953 717 881 771 902 520 922 935 941 ---]
+[0.0 0.9 1.8 2.7 3.6 4.5 5.4 6.3 7.2 8.1 9.0]
+['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
+
+Missed
+[213  22 269 196 316  61 295 106  68  81 ---]
+[0.0 0.9 1.8 2.7 3.6 4.5 5.4 6.3 7.2 8.1 9. ]
+
+
+Value Guess Histogram (auto)
+============================
+
+Matched
+[  63  405 1203 1835 2105 1463  735  355  159   50 ----]
+[ 2.6  4.4  6.2  8.0  9.8 11.6 13.4 15.3 17.1 18.9 20.7]
+
+Missed
+[  16  111  208  317  361  348  181   61   18    6 ---- ---- ---- ----]
+[ 2.1  3.5  4.9  6.3  7.7  9.1 10.5 11.8 13.2 14.6 16.0 17.4 18.8 20.2]
+
+
+Value Guess Histogram
+=====================
+
+Matched
+[   0   30  367 1259 2045 2288 1365  629  286   97 ----]
+[   0    2    4    6    8   10   12   14   16   18   20]
+
+Missed
+[   0   48  246  434  533  292   63   10    1    0  ---]
+[   0    2    4    6    8   10   12   14   16   18   20]
+
+
+Missed Items
+============
+
+   12 Predicted: "Sandal" 6.4, Actual: "Sneaker" 4.4
+   20 Predicted: "T-shirt/top" 6.8, Actual: "Pullover" 6.5
+   21 Predicted: "Sneaker" 7.7, Actual: "Sandal" 7.6
+   23 Predicted: "Sneaker" 9.0, Actual: "Ankle boot" 7.0
+   25 Predicted: "Pullover" 6.3, Actual: "Coat" 4.7
+   40 Predicted: "T-shirt/top" 11.8, Actual: "Shirt" 11.2
+   49 Predicted: "Shirt" 9.4, Actual: "Pullover" 7.6
+   50 Predicted: "Shirt" 10.0, Actual: "Coat" 9.4
+   51 Predicted: "Pullover" 6.0, Actual: "Coat" 4.6
+   53 Predicted: "Shirt" 9.1, Actual: "Bag" 8.4
+   66 Predicted: "T-shirt/top" 4.1, Actual: "Pullover" 3.0
+   67 Predicted: "Coat" 7.8, Actual: "Dress" 6.9
+   68 Predicted: "Sneaker" 9.1, Actual: "Ankle boot" 5.4
+   72 Predicted: "Shirt" 8.4, Actual: "Pullover" 7.4
+   98 Predicted: "Shirt" 9.5, Actual: "Coat" 9.4
+  103 Predicted: "Shirt" 7.8, Actual: "Pullover" 7.3
+  117 Predicted: "Coat" 5.7, Actual: "Shirt" 4.5
+  135 Predicted: "Coat" 6.3, Actual: "Shirt" 5.8
+  147 Predicted: "Dress" 9.1, Actual: "Shirt" 3.8
+  150 Predicted: "Shirt" 6.0, Actual: "Coat" 4.2
+  151 Predicted: "Pullover" 6.4, Actual: "Coat" 4.6
+  153 Predicted: "Dress" 9.4, Actual: "Coat" 7.1
+  183 Predicted: "Bag" 10.1, Actual: "Shirt" 8.8
+  219 Predicted: "Coat" 9.3, Actual: "Pullover" 8.9
+  222 Predicted: "Dress" 5.4, Actual: "Pullover" 3.5
+  227 Predicted: "Shirt" 10.1, Actual: "Pullover" 9.6
+  239 Predicted: "Pullover" 11.7, Actual: "Coat" 8.0
+  241 Predicted: "Coat" 5.6, Actual: "Shirt" 4.8
+  243 Predicted: "Shirt" 5.2, Actual: "Pullover" 4.9
+  244 Predicted: "Pullover" 10.1, Actual: "Shirt" 7.7
+  248 Predicted: "Shirt" 6.9, Actual: "Pullover" 6.4
+  249 Predicted: "Coat" 12.1, Actual: "Pullover" 10.1
+  252 Predicted: "Coat" 6.1, Actual: "Shirt" 6.0
+  255 Predicted: "Coat" 11.2, Actual: "Pullover" 10.4
+  271 Predicted: "Shirt" 6.3, Actual: "Dress" 6.1
+  273 Predicted: "Coat" 9.8, Actual: "Pullover" 7.9
+  282 Predicted: "Pullover" 8.2, Actual: "Shirt" 7.0
+  285 Predicted: "Coat" 10.4, Actual: "Shirt" 10.0
+  289 Predicted: "Dress" 6.5, Actual: "Coat" 5.6
+  299 Predicted: "Dress" 7.1, Actual: "Bag" 6.1
+  311 Predicted: "Shirt" 6.6, Actual: "Dress" 6.6
+  312 Predicted: "Pullover" 4.2, Actual: "Shirt" 3.8
+  313 Predicted: "Shirt" 8.3, Actual: "Coat" 7.3
+  316 Predicted: "Sneaker" 10.6, Actual: "Ankle boot" 8.6
+  320 Predicted: "Sandal" 3.9, Actual: "Bag" 3.5
+  324 Predicted: "Shirt" 11.7, Actual: "Coat" 9.2
+  325 Predicted: "Pullover" 10.3, Actual: "Shirt" 8.7
+  332 Predicted: "Shirt" 9.6, Actual: "T-shirt/top" 8.2
+  337 Predicted: "Shirt" 7.5, Actual: "Pullover" 7.2
+  344 Predicted: "T-shirt/top" 8.7, Actual: "Shirt" 7.8
+  359 Predicted: "Shirt" 10.5, Actual: "T-shirt/top" 8.2
+  367 Predicted: "Coat" 11.6, Actual: "Pullover" 10.3
+  378 Predicted: "Dress" 5.2, Actual: "Coat" 4.9
+  381 Predicted: "Shirt" 13.4, Actual: "T-shirt/top" 12.7
+  382 Predicted: "T-shirt/top" 8.4, Actual: "Pullover" 6.0
+  389 Predicted: "Pullover" 7.1, Actual: "Shirt" 7.0
+  396 Predicted: "Shirt" 12.0, Actual: "Coat" 10.3
+  406 Predicted: "Dress" 3.9, Actual: "Shirt" 2.9
+  409 Predicted: "Dress" 7.7, Actual: "Trouser" 3.2
+  441 Predicted: "Sneaker" 11.5, Actual: "Ankle boot" 9.5
+  444 Predicted: "Coat" 10.1, Actual: "Shirt" 9.0
+  454 Predicted: "Pullover" 8.7, Actual: "T-shirt/top" 4.6
+  457 Predicted: "Coat" 13.4, Actual: "Pullover" 11.2
+  460 Predicted: "Trouser" 7.1, Actual: "Dress" 4.7
+  465 Predicted: "Coat" 6.7, Actual: "Dress" 6.7
+  474 Predicted: "T-shirt/top" 7.6, Actual: "Shirt" 5.4
+  476 Predicted: "Shirt" 5.2, Actual: "Coat" 3.6
+  480 Predicted: "Sneaker" 9.1, Actual: "Sandal" 8.7
+  490 Predicted: "Shirt" 7.6, Actual: "Dress" 4.4
+  506 Predicted: "Trouser" 5.1, Actual: "Pullover" 4.2
+  526 Predicted: "Shirt" 7.8, Actual: "Coat" 6.7
+  527 Predicted: "Shirt" 7.8, Actual: "Pullover" 6.2
+  529 Predicted: "Shirt" 8.7, Actual: "Bag" 8.1
+  531 Predicted: "Sneaker" 2.1, Actual: "T-shirt/top" 1.9
+  541 Predicted: "Pullover" 9.5, Actual: "Coat" 8.9
+  544 Predicted: "Dress" 4.5, Actual: "T-shirt/top" 4.1
+  546 Predicted: "Coat" 9.3, Actual: "Pullover" 9.0
+  562 Predicted: "Pullover" 7.3, Actual: "Shirt" 5.6
+  563 Predicted: "T-shirt/top" 8.2, Actual: "Shirt" 6.5
+  565 Predicted: "T-shirt/top" 11.2, Actual: "Shirt" 9.0
+  569 Predicted: "Pullover" 6.7, Actual: "Dress" 5.5
+  570 Predicted: "Shirt" 4.9, Actual: "Dress" 4.5
+  572 Predicted: "T-shirt/top" 8.7, Actual: "Shirt" 7.0
+  577 Predicted: "Dress" 5.9, Actual: "T-shirt/top" 5.1
+  578 Predicted: "Shirt" 5.1, Actual: "Dress" 3.9
+  586 Predicted: "T-shirt/top" 11.8, Actual: "Shirt" 10.6
+  587 Predicted: "Coat" 7.1, Actual: "Shirt" 7.1
+  595 Predicted: "Pullover" 8.8, Actual: "Shirt" 7.8
+  608 Predicted: "Shirt" 9.5, Actual: "Pullover" 9.3
+  616 Predicted: "Dress" 7.8, Actual: "T-shirt/top" 6.5
+  628 Predicted: "Bag" 12.7, Actual: "Shirt" 10.0
+  632 Predicted: "Shirt" 6.8, Actual: "Pullover" 5.9
+  634 Predicted: "Coat" 9.8, Actual: "Shirt" 8.9
+  635 Predicted: "Trouser" 7.5, Actual: "Bag" -0.3
+  639 Predicted: "Pullover" 8.4, Actual: "Coat" 6.1
+  661 Predicted: "Bag" 3.6, Actual: "Dress" 2.9
+  663 Predicted: "Dress" 7.5, Actual: "Trouser" -0.0
+  664 Predicted: "Pullover" 3.7, Actual: "Shirt" 3.5
+  670 Predicted: "Shirt" 8.4, Actual: "Pullover" 3.3
+  671 Predicted: "Sandal" 5.5, Actual: "Sneaker" 4.1
+  685 Predicted: "Dress" 9.6, Actual: "Coat" 9.5
+  686 Predicted: "Coat" 10.7, Actual: "Pullover" 9.8
+  688 Predicted: "Pullover" 4.5, Actual: "Dress" 1.2
+  689 Predicted: "Pullover" 9.4, Actual: "Coat" 9.3
+  697 Predicted: "Shirt" 5.1, Actual: "Bag" 4.1
+  701 Predicted: "Dress" 7.7, Actual: "Trouser" 2.1
+  702 Predicted: "Pullover" 9.6, Actual: "Coat" 9.6
+  711 Predicted: "Dress" 10.5, Actual: "Shirt" 7.9
+  722 Predicted: "Sneaker" 10.2, Actual: "Sandal" 5.3
+  725 Predicted: "Coat" 8.8, Actual: "Shirt" 7.9
+  732 Predicted: "T-shirt/top" 10.0, Actual: "Pullover" 5.7
+  753 Predicted: "T-shirt/top" 10.6, Actual: "Dress" 9.4
+  760 Predicted: "Dress" 4.8, Actual: "Pullover" 2.9
+  761 Predicted: "Pullover" 7.4, Actual: "Shirt" 7.0
+  767 Predicted: "Coat" 8.5, Actual: "Shirt" 8.2
+  787 Predicted: "Dress" 10.1, Actual: "Trouser" 4.8
+  800 Predicted: "Ankle boot" 14.5, Actual: "Sneaker" 10.1
+  801 Predicted: "Pullover" 7.1, Actual: "Coat" 3.6
+  805 Predicted: "Pullover" 8.2, Actual: "Coat" 7.7
+  823 Predicted: "Pullover" 10.7, Actual: "Shirt" 10.1
+  844 Predicted: "Coat" 5.8, Actual: "Dress" 5.5
+  851 Predicted: "Coat" 7.6, Actual: "Pullover" 6.2
+  852 Predicted: "Sneaker" 5.8, Actual: "Sandal" 5.6
+  858 Predicted: "Dress" 5.6, Actual: "T-shirt/top" 5.6
+  870 Predicted: "Shirt" 9.4, Actual: "Pullover" 9.3
+  887 Predicted: "Trouser" 6.4, Actual: "Dress" 6.0
+  888 Predicted: "Bag" 6.5, Actual: "Coat" 5.6
+  890 Predicted: "Dress" 7.7, Actual: "T-shirt/top" 6.0
+  894 Predicted: "Dress" 5.6, Actual: "T-shirt/top" 5.4
+  898 Predicted: "Ankle boot" 8.8, Actual: "Sandal" 8.6
+  902 Predicted: "Sneaker" 9.4, Actual: "Sandal" 5.9
+  905 Predicted: "Pullover" 9.1, Actual: "Coat" 7.4
+  909 Predicted: "Pullover" 6.0, Actual: "Shirt" 3.5
+  921 Predicted: "Coat" 10.4, Actual: "Shirt" 9.7
+  924 Predicted: "Shirt" 5.6, Actual: "Coat" 5.5
+  925 Predicted: "Sandal" 7.1, Actual: "Sneaker" 6.2
+  926 Predicted: "Shirt" 4.8, Actual: "T-shirt/top" 4.3
+  930 Predicted: "Shirt" 5.2, Actual: "T-shirt/top" 3.3
+  935 Predicted: "Shirt" 11.9, Actual: "Coat" 10.4
+  938 Predicted: "Pullover" 5.9, Actual: "Shirt" 5.5
+  945 Predicted: "Ankle boot" 10.4, Actual: "Sandal" 9.5
+  946 Predicted: "Sneaker" 7.6, Actual: "Sandal" 7.4
+  956 Predicted: "Pullover" 8.0, Actual: "Shirt" 6.9
+  965 Predicted: "Shirt" 10.4, Actual: "T-shirt/top" 7.6
+  966 Predicted: "T-shirt/top" 8.9, Actual: "Shirt" 7.2
+  968 Predicted: "T-shirt/top" 8.5, Actual: "Shirt" 8.0
+  971 Predicted: "Dress" 7.3, Actual: "Shirt" 5.3
+  976 Predicted: "Coat" 10.0, Actual: "Pullover" 6.4
+  977 Predicted: "T-shirt/top" 12.0, Actual: "Shirt" 10.6
+  979 Predicted: "T-shirt/top" 13.0, Actual: "Dress" 7.4
+  986 Predicted: "Coat" 10.8, Actual: "Pullover" 10.7
+  993 Predicted: "Sneaker" 6.9, Actual: "Sandal" 6.3
+  994 Predicted: "Pullover" 11.0, Actual: "Coat" 10.0
+ 1004 Predicted: "Pullover" 7.3, Actual: "Shirt" 6.6
+ 1005 Predicted: "Pullover" 7.6, Actual: "T-shirt/top" 3.2
+ 1008 Predicted: "Pullover" 5.3, Actual: "Shirt" 5.1
+ 1025 Predicted: "Coat" 11.9, Actual: "Shirt" 9.5
+ 1027 Predicted: "Sneaker" 8.1, Actual: "Sandal" 7.3
+ 1053 Predicted: "Pullover" 10.2, Actual: "Coat" 10.1
+ 1054 Predicted: "Sneaker" 10.4, Actual: "Ankle boot" 10.0
+ 1055 Predicted: "Shirt" 9.3, Actual: "Coat" 9.1
+ 1056 Predicted: "T-shirt/top" 13.2, Actual: "Shirt" 11.9
+ 1058 Predicted: "Coat" 11.3, Actual: "Shirt" 7.8
+ 1065 Predicted: "Shirt" 8.5, Actual: "Coat" 7.5
+ 1066 Predicted: "Shirt" 7.5, Actual: "Bag" 7.3
+ 1079 Predicted: "Sandal" 6.6, Actual: "Sneaker" 5.7
+ 1082 Predicted: "Dress" 6.4, Actual: "Trouser" 5.3
+ 1091 Predicted: "Dress" 8.2, Actual: "Trouser" 7.4
+ 1101 Predicted: "Shirt" 6.9, Actual: "Coat" 5.2
+ 1104 Predicted: "Shirt" 9.2, Actual: "Coat" 7.9
+ 1107 Predicted: "Pullover" 9.4, Actual: "Shirt" 5.8
+ 1108 Predicted: "Sandal" 5.6, Actual: "Sneaker" 5.2
+ 1110 Predicted: "Ankle boot" 3.7, Actual: "Sandal" 3.3
+ 1111 Predicted: "Dress" 9.2, Actual: "T-shirt/top" 3.8
+ 1116 Predicted: "Shirt" 5.6, Actual: "Pullover" 4.6
+ 1121 Predicted: "Pullover" 9.3, Actual: "Shirt" 8.9
+ 1124 Predicted: "Shirt" 8.0, Actual: "T-shirt/top" 7.4
+ 1131 Predicted: "Coat" 6.0, Actual: "Shirt" 5.3
+ 1139 Predicted: "Shirt" 5.2, Actual: "T-shirt/top" 5.1
+ 1142 Predicted: "Shirt" 3.8, Actual: "Coat" 3.7
+ 1152 Predicted: "T-shirt/top" 7.0, Actual: "Shirt" 5.8
+ 1160 Predicted: "Dress" 7.7, Actual: "Coat" 5.6
+ 1162 Predicted: "Coat" 10.2, Actual: "Shirt" 7.1
+ 1174 Predicted: "Coat" 12.6, Actual: "Shirt" 9.3
+ 1188 Predicted: "T-shirt/top" 10.8, Actual: "Shirt" 10.7
+ 1197 Predicted: "Pullover" 8.8, Actual: "Shirt" 7.6
+ 1210 Predicted: "T-shirt/top" 6.2, Actual: "Shirt" 3.6
+ 1213 Predicted: "Shirt" 7.9, Actual: "Pullover" 7.2
+ 1218 Predicted: "Dress" 8.4, Actual: "T-shirt/top" 6.2
+ 1223 Predicted: "Pullover" 10.0, Actual: "Coat" 9.3
+ 1231 Predicted: "Shirt" 9.3, Actual: "T-shirt/top" 5.6
+ 1235 Predicted: "T-shirt/top" 12.1, Actual: "Shirt" 11.2
+ 1236 Predicted: "T-shirt/top" 11.7, Actual: "Shirt" 10.0
+ 1243 Predicted: "Shirt" 3.5, Actual: "Coat" 3.0
+ 1249 Predicted: "Shirt" 7.9, Actual: "T-shirt/top" 6.3
+ 1251 Predicted: "Dress" 8.6, Actual: "Coat" 8.4
+ 1254 Predicted: "Coat" 6.7, Actual: "Pullover" 4.6
+ 1277 Predicted: "Dress" 2.9, Actual: "Shirt" 2.8
+ 1280 Predicted: "Coat" 11.6, Actual: "Pullover" 10.6
+ 1294 Predicted: "T-shirt/top" 10.6, Actual: "Shirt" 10.2
+ 1300 Predicted: "Sandal" 6.8, Actual: "Bag" 2.3
+ 1305 Predicted: "Shirt" 10.0, Actual: "T-shirt/top" 10.0
+ 1315 Predicted: "Coat" 9.0, Actual: "Pullover" 8.4
+ 1322 Predicted: "Coat" 8.8, Actual: "Pullover" 8.0
+ 1326 Predicted: "Shirt" 8.3, Actual: "Dress" 3.2
+ 1329 Predicted: "Pullover" 9.7, Actual: "Coat" 9.6
+ 1334 Predicted: "Shirt" 4.7, Actual: "Coat" 3.8
+ 1339 Predicted: "Shirt" 6.9, Actual: "Pullover" 6.6
+ 1352 Predicted: "Coat" 10.0, Actual: "Shirt" 10.0
+ 1356 Predicted: "Pullover" 9.1, Actual: "Coat" 8.2
+ 1368 Predicted: "Ankle boot" 10.3, Actual: "Sneaker" 9.9
+ 1374 Predicted: "Coat" 11.9, Actual: "Pullover" 9.9
+ 1377 Predicted: "Pullover" 10.2, Actual: "Coat" 10.1
+ 1388 Predicted: "Shirt" 7.9, Actual: "Coat" 6.0
+ 1390 Predicted: "Trouser" 7.2, Actual: "Dress" 6.8
+ 1396 Predicted: "T-shirt/top" 8.5, Actual: "Shirt" 8.0
+ 1399 Predicted: "Dress" 2.6, Actual: "T-shirt/top" 1.6
+ 1408 Predicted: "Pullover" 7.5, Actual: "Coat" 5.1
+ 1449 Predicted: "Coat" 8.4, Actual: "Pullover" 4.9
+ 1455 Predicted: "Shirt" 7.6, Actual: "Bag" 3.8
+ 1458 Predicted: "T-shirt/top" 6.9, Actual: "Shirt" 5.5
+ 1462 Predicted: "Bag" 6.9, Actual: "Coat" 4.9
+ 1471 Predicted: "Sneaker" 8.6, Actual: "Ankle boot" 7.0
+ 1482 Predicted: "Dress" 4.3, Actual: "Trouser" 3.1
+ 1483 Predicted: "Shirt" 8.5, Actual: "T-shirt/top" 7.5
+ 1487 Predicted: "Coat" 9.7, Actual: "Shirt" 8.1
+ 1489 Predicted: "T-shirt/top" 5.0, Actual: "Dress" 4.6
+ 1495 Predicted: "Shirt" 7.3, Actual: "T-shirt/top" 6.7
+ 1496 Predicted: "Pullover" 7.3, Actual: "Shirt" 6.4
+ 1501 Predicted: "Sneaker" 6.3, Actual: "Sandal" 6.0
+ 1502 Predicted: "Pullover" 10.5, Actual: "Shirt" 9.4
+ 1504 Predicted: "Dress" 5.6, Actual: "T-shirt/top" 4.8
+ 1509 Predicted: "T-shirt/top" 7.0, Actual: "Pullover" 6.8
+ 1513 Predicted: "Sneaker" 5.7, Actual: "Sandal" 5.7
+ 1521 Predicted: "Sneaker" 3.6, Actual: "Bag" 3.6
+ 1522 Predicted: "Sneaker" 9.5, Actual: "Ankle boot" 6.7
+ 1527 Predicted: "Shirt" 7.9, Actual: "Pullover" 5.5
+ 1533 Predicted: "T-shirt/top" 7.0, Actual: "Pullover" 6.6
+ 1539 Predicted: "Coat" 9.3, Actual: "Pullover" 8.1
+ 1543 Predicted: "Trouser" 6.4, Actual: "Dress" 6.1
+ 1567 Predicted: "Sandal" 6.5, Actual: "Sneaker" 5.5
+ 1576 Predicted: "Shirt" 5.3, Actual: "Pullover" 4.7
+ 1586 Predicted: "Shirt" 6.0, Actual: "T-shirt/top" 3.7
+ 1587 Predicted: "Dress" 5.7, Actual: "Coat" 5.5
+ 1609 Predicted: "Ankle boot" 10.0, Actual: "Sneaker" 9.8
+ 1617 Predicted: "Sneaker" 4.3, Actual: "Sandal" 2.8
+ 1620 Predicted: "T-shirt/top" 7.1, Actual: "Shirt" 5.2
+ 1624 Predicted: "Shirt" 9.2, Actual: "Pullover" 7.9
+ 1632 Predicted: "Sneaker" 7.9, Actual: "Ankle boot" 7.5
+ 1642 Predicted: "Bag" 7.1, Actual: "Shirt" 4.9
+ 1643 Predicted: "Coat" 8.0, Actual: "Shirt" 6.5
+ 1645 Predicted: "Bag" 2.6, Actual: "Shirt" 0.9
+ 1650 Predicted: "Pullover" 8.4, Actual: "Shirt" 6.9
+ 1655 Predicted: "Coat" 9.3, Actual: "Pullover" 8.7
+ 1659 Predicted: "Dress" 6.7, Actual: "Trouser" -0.3
+ 1661 Predicted: "Coat" 9.5, Actual: "Pullover" 8.5
+ 1665 Predicted: "Coat" 9.5, Actual: "Dress" 7.7
+ 1686 Predicted: "Shirt" 13.8, Actual: "T-shirt/top" 13.5
+ 1701 Predicted: "Coat" 11.8, Actual: "Shirt" 7.3
+ 1706 Predicted: "T-shirt/top" 10.0, Actual: "Shirt" 8.8
+ 1714 Predicted: "T-shirt/top" 5.3, Actual: "Trouser" 5.2
+ 1718 Predicted: "Sandal" 3.8, Actual: "Ankle boot" 3.4
+ 1726 Predicted: "Coat" 10.4, Actual: "Pullover" 10.0
+ 1732 Predicted: "Coat" 9.6, Actual: "Pullover" 6.9
+ 1743 Predicted: "Coat" 10.9, Actual: "Pullover" 6.0
+ 1744 Predicted: "Pullover" 6.2, Actual: "Shirt" 5.8
+ 1756 Predicted: "T-shirt/top" 7.4, Actual: "Shirt" 7.3
+ 1771 Predicted: "T-shirt/top" 10.1, Actual: "Shirt" 5.7
+ 1778 Predicted: "Dress" 5.0, Actual: "Bag" 4.6
+ 1785 Predicted: "Sandal" 6.4, Actual: "Sneaker" 6.0
+ 1792 Predicted: "Pullover" 9.5, Actual: "Coat" 8.7
+ 1803 Predicted: "Pullover" 7.1, Actual: "Coat" 6.8
+ 1810 Predicted: "Coat" 9.7, Actual: "Dress" 8.7
+ 1811 Predicted: "Pullover" 8.7, Actual: "Coat" 8.4
+ 1814 Predicted: "Dress" 10.6, Actual: "Coat" 7.3
+ 1816 Predicted: "Ankle boot" 11.4, Actual: "Sneaker" 10.5
+ 1817 Predicted: "Sneaker" 10.9, Actual: "Ankle boot" 9.5
+ 1833 Predicted: "Trouser" 6.9, Actual: "Dress" 5.0
+ 1852 Predicted: "Coat" 7.8, Actual: "Dress" 1.0
+ 1855 Predicted: "Pullover" 4.9, Actual: "Coat" 4.4
+ 1861 Predicted: "Shirt" 8.9, Actual: "T-shirt/top" 8.3
+ 1867 Predicted: "Shirt" 8.8, Actual: "T-shirt/top" 8.3
+ 1895 Predicted: "Shirt" 4.5, Actual: "Coat" 3.6
+ 1907 Predicted: "Sandal" 6.2, Actual: "Ankle boot" 5.4
+ 1917 Predicted: "Pullover" 10.9, Actual: "Coat" 8.9
+ 1928 Predicted: "Coat" 8.1, Actual: "Pullover" 7.8
+ 1930 Predicted: "Coat" 6.2, Actual: "Dress" 5.0
+ 1943 Predicted: "T-shirt/top" 8.1, Actual: "Shirt" 7.1
+ 1945 Predicted: "Dress" 6.2, Actual: "T-shirt/top" 4.9
+ 1953 Predicted: "Sneaker" 8.1, Actual: "Sandal" 4.6
+ 1954 Predicted: "Sneaker" 8.3, Actual: "Ankle boot" 7.3
+ 1955 Predicted: "Dress" 7.0, Actual: "Trouser" 3.9
+ 1957 Predicted: "Coat" 8.1, Actual: "Pullover" 8.0
+ 1964 Predicted: "Coat" 8.9, Actual: "Pullover" 8.2
+ 1980 Predicted: "Dress" 8.3, Actual: "Bag" 3.7
+ 1988 Predicted: "Ankle boot" 11.7, Actual: "Sneaker" 10.5
+ 2001 Predicted: "Coat" 10.3, Actual: "Pullover" 4.6
+ 2006 Predicted: "T-shirt/top" 12.3, Actual: "Shirt" 9.7
+ 2009 Predicted: "T-shirt/top" 13.7, Actual: "Shirt" 11.6
+ 2010 Predicted: "Coat" 8.2, Actual: "Shirt" 7.9
+ 2016 Predicted: "Pullover" 10.0, Actual: "Shirt" 9.1
+ 2020 Predicted: "Coat" 10.1, Actual: "Pullover" 8.7
+ 2022 Predicted: "Ankle boot" 16.0, Actual: "Sneaker" 7.6
+ 2037 Predicted: "Sneaker" 5.9, Actual: "Sandal" 5.2
+ 2039 Predicted: "Coat" 9.7, Actual: "Pullover" 4.7
+ 2042 Predicted: "Pullover" 6.1, Actual: "Coat" 3.5
+ 2053 Predicted: "Sneaker" 7.7, Actual: "Sandal" 6.3
+ 2064 Predicted: "Shirt" 9.5, Actual: "Pullover" 8.1
+ 2065 Predicted: "Trouser" 7.1, Actual: "Dress" 6.5
+ 2069 Predicted: "Pullover" 9.7, Actual: "Shirt" 9.0
+ 2071 Predicted: "Coat" 6.8, Actual: "Dress" 5.3
+ 2073 Predicted: "Dress" 9.3, Actual: "Coat" 7.2
+ 2076 Predicted: "Shirt" 5.6, Actual: "Bag" 5.2
+ 2081 Predicted: "Coat" 7.3, Actual: "Pullover" 6.7
+ 2091 Predicted: "Shirt" 8.4, Actual: "Bag" 6.2
+ 2106 Predicted: "Shirt" 2.8, Actual: "Pullover" 2.1
+ 2110 Predicted: "Coat" 9.9, Actual: "Shirt" 7.2
+ 2111 Predicted: "Dress" 5.9, Actual: "Trouser" 4.9
+ 2118 Predicted: "T-shirt/top" 6.2, Actual: "Pullover" 5.5
+ 2131 Predicted: "Bag" 4.2, Actual: "Pullover" 3.8
+ 2137 Predicted: "Coat" 9.0, Actual: "Shirt" 9.0
+ 2144 Predicted: "Shirt" 9.8, Actual: "Coat" 9.3
+ 2145 Predicted: "Coat" 8.0, Actual: "Shirt" 7.4
+ 2148 Predicted: "Shirt" 7.3, Actual: "Dress" 6.9
+ 2150 Predicted: "Shirt" 7.7, Actual: "Coat" 7.4
+ 2152 Predicted: "Coat" 10.0, Actual: "Pullover" 9.8
+ 2162 Predicted: "Coat" 6.9, Actual: "Shirt" 6.2
+ 2174 Predicted: "Dress" 7.6, Actual: "T-shirt/top" 7.6
+ 2181 Predicted: "Pullover" 8.2, Actual: "Bag" 5.9
+ 2189 Predicted: "Shirt" 6.7, Actual: "Coat" 5.3
+ 2191 Predicted: "T-shirt/top" 8.5, Actual: "Shirt" 8.3
+ 2195 Predicted: "Pullover" 11.8, Actual: "Shirt" 8.6
+ 2245 Predicted: "T-shirt/top" 4.0, Actual: "Dress" 3.8
+ 2247 Predicted: "T-shirt/top" 10.1, Actual: "Shirt" 9.6
+ 2272 Predicted: "Shirt" 5.6, Actual: "Pullover" 5.0
+ 2278 Predicted: "Coat" 9.8, Actual: "Pullover" 8.9
+ 2290 Predicted: "T-shirt/top" 11.8, Actual: "Shirt" 10.4
+ 2298 Predicted: "T-shirt/top" 9.6, Actual: "Shirt" 9.2
+ 2305 Predicted: "Sneaker" 8.5, Actual: "Sandal" 8.4
+ 2311 Predicted: "T-shirt/top" 4.1, Actual: "Shirt" 2.1
+ 2312 Predicted: "T-shirt/top" 4.6, Actual: "Dress" 3.8
+ 2318 Predicted: "Pullover" 9.3, Actual: "Dress" 8.8
+ 2326 Predicted: "Pullover" 5.9, Actual: "Shirt" 4.8
+ 2332 Predicted: "Coat" 7.8, Actual: "Pullover" 5.9
+ 2337 Predicted: "Coat" 6.9, Actual: "Pullover" 5.1
+ 2351 Predicted: "Pullover" 7.2, Actual: "Shirt" 6.2
+ 2352 Predicted: "Pullover" 3.6, Actual: "Shirt" 3.4
+ 2359 Predicted: "Coat" 8.5, Actual: "T-shirt/top" 6.5
+ 2367 Predicted: "Bag" 6.0, Actual: "Shirt" 3.3
+ 2373 Predicted: "Pullover" 4.1, Actual: "Shirt" 2.2
+ 2381 Predicted: "Dress" 3.7, Actual: "Bag" 3.2
+ 2382 Predicted: "Dress" 4.3, Actual: "Pullover" 3.1
+ 2396 Predicted: "Dress" 4.5, Actual: "Trouser" -0.0
+ 2397 Predicted: "T-shirt/top" 7.0, Actual: "Shirt" 5.3
+ 2398 Predicted: "Shirt" 8.5, Actual: "Coat" 8.1
+ 2399 Predicted: "Sandal" 9.1, Actual: "Ankle boot" 8.8
+ 2417 Predicted: "T-shirt/top" 11.6, Actual: "Shirt" 9.9
+ 2421 Predicted: "Pullover" 6.4, Actual: "Coat" 5.8
+ 2423 Predicted: "Sneaker" 7.1, Actual: "Sandal" 6.1
+ 2425 Predicted: "Pullover" 8.2, Actual: "Shirt" 6.2
+ 2431 Predicted: "T-shirt/top" 7.9, Actual: "Shirt" 6.3
+ 2457 Predicted: "Sneaker" 6.5, Actual: "Bag" 4.8
+ 2462 Predicted: "Shirt" 9.0, Actual: "Coat" 7.3
+ 2464 Predicted: "T-shirt/top" 8.3, Actual: "Shirt" 6.9
+ 2469 Predicted: "Pullover" 9.8, Actual: "Shirt" 6.6
+ 2476 Predicted: "Shirt" 8.1, Actual: "Bag" 3.4
+ 2478 Predicted: "Dress" 7.4, Actual: "Trouser" -0.1
+ 2485 Predicted: "T-shirt/top" 6.3, Actual: "Shirt" 5.6
+ 2487 Predicted: "Sandal" 4.2, Actual: "Coat" 2.4
+ 2491 Predicted: "Pullover" 11.5, Actual: "Shirt" 9.9
+ 2498 Predicted: "Dress" 6.3, Actual: "Shirt" 4.8
+ 2503 Predicted: "Coat" 6.9, Actual: "Pullover" 6.4
+ 2506 Predicted: "Shirt" 4.8, Actual: "T-shirt/top" 3.7
+ 2507 Predicted: "Coat" 8.4, Actual: "Dress" 7.4
+ 2509 Predicted: "Pullover" 11.7, Actual: "Coat" 9.9
+ 2521 Predicted: "Sandal" 5.7, Actual: "Bag" 5.3
+ 2522 Predicted: "Shirt" 9.2, Actual: "T-shirt/top" 8.2
+ 2527 Predicted: "Sneaker" 11.4, Actual: "Ankle boot" 7.9
+ 2529 Predicted: "Ankle boot" 11.2, Actual: "Sneaker" 10.3
+ 2540 Predicted: "Coat" 8.6, Actual: "Shirt" 7.6
+ 2541 Predicted: "Shirt" 4.6, Actual: "Pullover" 4.5
+ 2548 Predicted: "Shirt" 7.8, Actual: "Pullover" 6.9
+ 2551 Predicted: "Dress" 5.1, Actual: "Shirt" 3.4
+ 2552 Predicted: "Coat" 10.3, Actual: "Pullover" 9.9
+ 2559 Predicted: "Sneaker" 11.4, Actual: "Ankle boot" 9.2
+ 2571 Predicted: "Shirt" 7.9, Actual: "T-shirt/top" 6.7
+ 2573 Predicted: "Dress" 8.4, Actual: "Coat" 7.6
+ 2580 Predicted: "T-shirt/top" 8.6, Actual: "Shirt" 7.4
+ 2591 Predicted: "Sandal" 6.8, Actual: "Ankle boot" 6.7
+ 2592 Predicted: "Shirt" 9.7, Actual: "Pullover" 9.1
+ 2593 Predicted: "Shirt" 6.0, Actual: "Pullover" 5.4
+ 2595 Predicted: "Ankle boot" 12.0, Actual: "Sneaker" 10.7
+ 2599 Predicted: "Bag" 8.1, Actual: "T-shirt/top" 1.3
+ 2617 Predicted: "Shirt" 9.7, Actual: "Coat" 7.0
+ 2622 Predicted: "Coat" 8.6, Actual: "Shirt" 8.3
+ 2624 Predicted: "Coat" 9.5, Actual: "Pullover" 8.1
+ 2626 Predicted: "Shirt" 8.6, Actual: "Coat" 8.6
+ 2629 Predicted: "Dress" 9.3, Actual: "Shirt" 4.1
+ 2639 Predicted: "Coat" 9.9, Actual: "Dress" 8.8
+ 2641 Predicted: "Dress" 9.4, Actual: "T-shirt/top" 8.9
+ 2652 Predicted: "Shirt" 6.7, Actual: "T-shirt/top" 6.5
+ 2653 Predicted: "Shirt" 7.8, Actual: "T-shirt/top" 7.4
+ 2659 Predicted: "Shirt" 7.6, Actual: "Bag" 2.9
+ 2661 Predicted: "Pullover" 8.7, Actual: "Shirt" 8.2
+ 2671 Predicted: "Pullover" 8.4, Actual: "Coat" 7.3
+ 2685 Predicted: "Shirt" 8.3, Actual: "Dress" 6.0
+ 2688 Predicted: "T-shirt/top" 9.8, Actual: "Dress" 7.8
+ 2690 Predicted: "Dress" 6.0, Actual: "Coat" 5.0
+ 2694 Predicted: "Coat" 11.0, Actual: "Shirt" 9.0
+ 2695 Predicted: "Shirt" 6.3, Actual: "Dress" 6.1
+ 2698 Predicted: "Dress" 10.2, Actual: "Coat" 9.4
+ 2717 Predicted: "Pullover" 5.7, Actual: "T-shirt/top" 4.4
+ 2721 Predicted: "T-shirt/top" 5.0, Actual: "Dress" 1.8
+ 2732 Predicted: "Bag" 10.3, Actual: "Shirt" 8.2
+ 2733 Predicted: "Coat" 10.6, Actual: "Pullover" 10.4
+ 2734 Predicted: "Pullover" 8.9, Actual: "Coat" 7.8
+ 2736 Predicted: "Bag" 4.4, Actual: "Dress" 3.5
+ 2741 Predicted: "Pullover" 6.8, Actual: "Trouser" 5.5
+ 2746 Predicted: "Pullover" 5.5, Actual: "Shirt" 4.6
+ 2752 Predicted: "Pullover" 8.2, Actual: "Shirt" 8.1
+ 2754 Predicted: "Coat" 10.8, Actual: "Shirt" 10.3
+ 2757 Predicted: "Pullover" 9.0, Actual: "Shirt" 7.4
+ 2772 Predicted: "Sandal" 8.1, Actual: "Sneaker" 6.5
+ 2776 Predicted: "Shirt" 7.2, Actual: "Coat" 6.3
+ 2779 Predicted: "Dress" 8.3, Actual: "Coat" 7.7
+ 2798 Predicted: "Dress" 4.2, Actual: "Coat" 3.9
+ 2811 Predicted: "Ankle boot" 11.6, Actual: "Sneaker" 10.9
+ 2814 Predicted: "Pullover" 8.2, Actual: "Dress" 8.1
+ 2817 Predicted: "T-shirt/top" 3.6, Actual: "Dress" -0.3
+ 2838 Predicted: "Dress" 5.6, Actual: "Shirt" 5.1
+ 2839 Predicted: "T-shirt/top" 10.4, Actual: "Shirt" 9.0
+ 2840 Predicted: "T-shirt/top" 10.6, Actual: "Shirt" 9.4
+ 2842 Predicted: "Bag" 6.9, Actual: "Shirt" 5.9
+ 2843 Predicted: "Pullover" 9.8, Actual: "Shirt" 9.2
+ 2856 Predicted: "T-shirt/top" 13.9, Actual: "Shirt" 10.2
+ 2865 Predicted: "Coat" 7.4, Actual: "Shirt" 7.3
+ 2869 Predicted: "Bag" 8.2, Actual: "Shirt" 5.9
+ 2870 Predicted: "Pullover" 10.0, Actual: "Shirt" 8.8
+ 2872 Predicted: "Shirt" 4.0, Actual: "T-shirt/top" 4.0
+ 2882 Predicted: "Pullover" 9.6, Actual: "Shirt" 6.3
+ 2883 Predicted: "Sandal" 6.0, Actual: "Sneaker" 5.5
+ 2884 Predicted: "Sandal" 6.4, Actual: "Coat" 5.5
+ 2894 Predicted: "Coat" 10.1, Actual: "Pullover" 8.5
+ 2897 Predicted: "Bag" 4.6, Actual: "T-shirt/top" 2.5
+ 2898 Predicted: "Coat" 9.3, Actual: "Dress" 7.8
+ 2904 Predicted: "Shirt" 8.8, Actual: "Pullover" 6.8
+ 2905 Predicted: "Coat" 7.6, Actual: "Bag" -0.3
+ 2909 Predicted: "Shirt" 8.3, Actual: "T-shirt/top" 6.4
+ 2910 Predicted: "Bag" 9.3, Actual: "Shirt" 7.4
+ 2914 Predicted: "Ankle boot" 12.1, Actual: "Sneaker" 10.7
+ 2919 Predicted: "Shirt" 7.3, Actual: "Coat" 4.2
+ 2920 Predicted: "Coat" 9.5, Actual: "Pullover" 6.4
+ 2926 Predicted: "Coat" 12.3, Actual: "Pullover" 11.2
+ 2935 Predicted: "Sneaker" 8.6, Actual: "Ankle boot" 7.1
+ 2939 Predicted: "Shirt" 6.6, Actual: "Coat" 6.3
+ 2942 Predicted: "Pullover" 8.1, Actual: "Shirt" 7.2
+ 2948 Predicted: "Sandal" 8.5, Actual: "Sneaker" 8.2
+ 2949 Predicted: "Pullover" 8.0, Actual: "Shirt" 8.0
+ 2951 Predicted: "Dress" 7.8, Actual: "Trouser" 1.6
+ 2953 Predicted: "Pullover" 5.4, Actual: "T-shirt/top" 4.6
+ 2956 Predicted: "Shirt" 6.8, Actual: "Pullover" 6.2
+ 2960 Predicted: "Shirt" 6.6, Actual: "Pullover" 5.0
+ 2965 Predicted: "Ankle boot" 6.6, Actual: "Sneaker" 5.6
+ 2967 Predicted: "Pullover" 9.4, Actual: "Coat" 9.2
+ 2975 Predicted: "Shirt" 6.3, Actual: "Pullover" 5.7
+ 2979 Predicted: "Pullover" 3.7, Actual: "Shirt" 3.1
+ 2985 Predicted: "Pullover" 11.2, Actual: "Shirt" 9.1
+ 2997 Predicted: "Dress" 5.6, Actual: "T-shirt/top" 4.4
+ 2998 Predicted: "Coat" 10.3, Actual: "Shirt" 9.1
+ 3004 Predicted: "Sandal" 6.0, Actual: "Sneaker" 3.8
+ 3006 Predicted: "Pullover" 7.2, Actual: "Bag" 6.6
+ 3007 Predicted: "T-shirt/top" 9.2, Actual: "Dress" 7.7
+ 3008 Predicted: "Dress" 6.7, Actual: "Bag" 0.5
+ 3019 Predicted: "Shirt" 9.8, Actual: "Dress" 5.9
+ 3038 Predicted: "Bag" 6.3, Actual: "T-shirt/top" 4.9
+ 3040 Predicted: "Coat" 9.6, Actual: "Pullover" 7.2
+ 3045 Predicted: "Dress" 4.3, Actual: "Shirt" 2.6
+ 3052 Predicted: "Shirt" 4.6, Actual: "Trouser" 4.5
+ 3067 Predicted: "Sneaker" 9.3, Actual: "Bag" 5.8
+ 3071 Predicted: "Ankle boot" 10.9, Actual: "Sandal" 10.5
+ 3074 Predicted: "Shirt" 9.3, Actual: "T-shirt/top" 9.2
+ 3077 Predicted: "Pullover" 7.3, Actual: "Coat" 6.7
+ 3080 Predicted: "T-shirt/top" 7.8, Actual: "Shirt" 6.6
+ 3081 Predicted: "Pullover" 8.9, Actual: "Coat" 8.4
+ 3082 Predicted: "Shirt" 3.7, Actual: "Pullover" 2.4
+ 3083 Predicted: "Pullover" 9.3, Actual: "Coat" 9.2
+ 3084 Predicted: "Dress" 9.5, Actual: "Coat" 6.2
+ 3087 Predicted: "Sneaker" 10.0, Actual: "Ankle boot" 9.5
+ 3103 Predicted: "Dress" 4.9, Actual: "Coat" 3.6
+ 3106 Predicted: "Coat" 11.5, Actual: "Dress" 10.1
+ 3109 Predicted: "Sandal" 4.0, Actual: "Bag" 4.0
+ 3116 Predicted: "Pullover" 6.8, Actual: "Shirt" 5.5
+ 3123 Predicted: "Sandal" 7.5, Actual: "Sneaker" 6.4
+ 3132 Predicted: "Coat" 10.3, Actual: "T-shirt/top" 5.9
+ 3165 Predicted: "Pullover" 10.2, Actual: "Shirt" 9.4
+ 3174 Predicted: "Pullover" 8.3, Actual: "Shirt" 7.5
+ 3176 Predicted: "Shirt" 9.5, Actual: "Coat" 8.3
+ 3187 Predicted: "Bag" 7.2, Actual: "Pullover" 7.2
+ 3188 Predicted: "Pullover" 6.7, Actual: "Shirt" 2.3
+ 3190 Predicted: "Coat" 9.6, Actual: "Pullover" 9.4
+ 3198 Predicted: "Pullover" 6.5, Actual: "Shirt" 3.0
+ 3201 Predicted: "Dress" 6.4, Actual: "T-shirt/top" 5.5
+ 3203 Predicted: "Pullover" 5.7, Actual: "Shirt" 5.2
+ 3205 Predicted: "Dress" 8.9, Actual: "T-shirt/top" 7.1
+ 3209 Predicted: "T-shirt/top" 5.9, Actual: "Dress" 3.9
+ 3215 Predicted: "Sneaker" 6.9, Actual: "Sandal" 6.7
+ 3228 Predicted: "Sneaker" 10.5, Actual: "Ankle boot" 10.3
+ 3229 Predicted: "Dress" 4.3, Actual: "Coat" 2.6
+ 3230 Predicted: "T-shirt/top" 8.7, Actual: "Shirt" 7.9
+ 3232 Predicted: "T-shirt/top" 14.8, Actual: "Shirt" 11.0
+ 3234 Predicted: "Sandal" 5.5, Actual: "Sneaker" 4.0
+ 3236 Predicted: "Bag" 13.1, Actual: "T-shirt/top" 7.1
+ 3237 Predicted: "Coat" 8.9, Actual: "Pullover" 7.8
+ 3239 Predicted: "T-shirt/top" 5.9, Actual: "Shirt" 5.3
+ 3240 Predicted: "Shirt" 8.5, Actual: "Pullover" 6.3
+ 3244 Predicted: "Shirt" 9.3, Actual: "T-shirt/top" 8.3
+ 3253 Predicted: "Sneaker" 6.2, Actual: "Sandal" 5.9
+ 3255 Predicted: "Dress" 8.4, Actual: "Pullover" 5.1
+ 3258 Predicted: "Dress" 8.7, Actual: "Pullover" 7.6
+ 3262 Predicted: "Coat" 14.6, Actual: "Shirt" 8.3
+ 3265 Predicted: "Pullover" 3.7, Actual: "Dress" 2.8
+ 3269 Predicted: "Pullover" 4.6, Actual: "Coat" 3.9
+ 3274 Predicted: "Ankle boot" 12.7, Actual: "Sneaker" 11.8
+ 3282 Predicted: "Shirt" 7.7, Actual: "Bag" 3.8
+ 3284 Predicted: "Shirt" 9.0, Actual: "Pullover" 7.6
+ 3297 Predicted: "Coat" 10.7, Actual: "Pullover" 7.9
+ 3301 Predicted: "Shirt" 8.8, Actual: "Pullover" 7.2
+ 3311 Predicted: "Bag" 4.8, Actual: "T-shirt/top" 4.8
+ 3313 Predicted: "Shirt" 9.9, Actual: "Dress" 3.7
+ 3323 Predicted: "Pullover" 6.2, Actual: "Shirt" 4.7
+ 3327 Predicted: "Dress" 9.0, Actual: "Shirt" 5.9
+ 3332 Predicted: "Shirt" 6.5, Actual: "T-shirt/top" 5.9
+ 3334 Predicted: "Dress" 7.3, Actual: "Shirt" 7.1
+ 3336 Predicted: "Coat" 10.5, Actual: "Shirt" 10.1
+ 3338 Predicted: "Coat" 10.8, Actual: "Shirt" 6.6
+ 3342 Predicted: "Shirt" 4.2, Actual: "T-shirt/top" 3.6
+ 3351 Predicted: "Ankle boot" 10.5, Actual: "Sneaker" 9.8
+ 3360 Predicted: "Dress" 5.8, Actual: "Trouser" 3.4
+ 3370 Predicted: "Coat" 6.8, Actual: "Pullover" 6.0
+ 3390 Predicted: "Coat" 6.4, Actual: "Pullover" 6.3
+ 3415 Predicted: "Coat" 9.6, Actual: "Shirt" 9.3
+ 3416 Predicted: "T-shirt/top" 10.0, Actual: "Shirt" 9.3
+ 3421 Predicted: "Ankle boot" 10.4, Actual: "Sandal" 7.9
+ 3429 Predicted: "T-shirt/top" 3.0, Actual: "Shirt" 1.8
+ 3439 Predicted: "Ankle boot" 9.5, Actual: "Sneaker" 8.9
+ 3441 Predicted: "Sandal" 3.4, Actual: "T-shirt/top" 3.2
+ 3442 Predicted: "Ankle boot" 8.3, Actual: "Sneaker" 8.1
+ 3451 Predicted: "Shirt" 4.0, Actual: "T-shirt/top" 1.1
+ 3457 Predicted: "Coat" 6.5, Actual: "Pullover" 4.8
+ 3466 Predicted: "Sandal" 4.2, Actual: "T-shirt/top" 0.8
+ 3468 Predicted: "Sneaker" 10.5, Actual: "Bag" 4.1
+ 3479 Predicted: "Pullover" 10.4, Actual: "Coat" 7.9
+ 3481 Predicted: "T-shirt/top" 7.6, Actual: "Shirt" 4.9
+ 3484 Predicted: "Pullover" 5.7, Actual: "T-shirt/top" 4.5
+ 3487 Predicted: "Ankle boot" 13.0, Actual: "Sandal" 11.7
+ 3489 Predicted: "Dress" 7.0, Actual: "Pullover" 4.0
+ 3496 Predicted: "Coat" 7.9, Actual: "Pullover" 6.6
+ 3497 Predicted: "Dress" 8.3, Actual: "Shirt" 7.6
+ 3507 Predicted: "Ankle boot" 10.2, Actual: "Sneaker" 9.3
+ 3509 Predicted: "Pullover" 11.0, Actual: "Coat" 9.4
+ 3522 Predicted: "Dress" 9.2, Actual: "T-shirt/top" 8.5
+ 3526 Predicted: "Shirt" 8.6, Actual: "Pullover" 8.4
+ 3531 Predicted: "Dress" 11.0, Actual: "T-shirt/top" 2.4
+ 3532 Predicted: "Coat" 10.0, Actual: "Pullover" 7.4
+ 3533 Predicted: "T-shirt/top" 3.7, Actual: "Dress" 3.6
+ 3534 Predicted: "Coat" 9.5, Actual: "Pullover" 8.4
+ 3535 Predicted: "Bag" 5.7, Actual: "Pullover" 4.8
+ 3540 Predicted: "Shirt" 9.7, Actual: "T-shirt/top" 8.3
+ 3545 Predicted: "Pullover" 7.5, Actual: "Shirt" 5.0
+ 3549 Predicted: "Dress" 7.4, Actual: "T-shirt/top" 6.8
+ 3553 Predicted: "T-shirt/top" 6.5, Actual: "Pullover" 4.5
+ 3554 Predicted: "Shirt" 7.6, Actual: "Pullover" 5.9
+ 3556 Predicted: "Shirt" 7.5, Actual: "Pullover" 7.2
+ 3568 Predicted: "Pullover" 7.0, Actual: "Coat" 2.3
+ 3588 Predicted: "Pullover" 11.4, Actual: "Shirt" 9.6
+ 3598 Predicted: "Coat" 10.6, Actual: "Pullover" 9.8
+ 3609 Predicted: "Coat" 4.4, Actual: "T-shirt/top" 2.3
+ 3613 Predicted: "Coat" 5.7, Actual: "Shirt" 5.1
+ 3625 Predicted: "T-shirt/top" 12.8, Actual: "Shirt" 9.4
+ 3626 Predicted: "Dress" 8.7, Actual: "Coat" 7.2
+ 3639 Predicted: "Dress" 7.2, Actual: "Coat" 6.6
+ 3649 Predicted: "Shirt" 9.8, Actual: "Coat" 9.7
+ 3658 Predicted: "Coat" 9.7, Actual: "Shirt" 9.3
+ 3663 Predicted: "Bag" 7.8, Actual: "Shirt" 5.9
+ 3664 Predicted: "Ankle boot" 9.3, Actual: "Sneaker" 9.0
+ 3669 Predicted: "Coat" 8.4, Actual: "Shirt" 5.3
+ 3673 Predicted: "T-shirt/top" 6.6, Actual: "Pullover" 5.1
+ 3690 Predicted: "Sneaker" 6.2, Actual: "Sandal" 3.8
+ 3700 Predicted: "T-shirt/top" 9.5, Actual: "Shirt" 8.4
+ 3704 Predicted: "Pullover" 9.6, Actual: "Coat" 9.2
+ 3706 Predicted: "Shirt" 9.2, Actual: "Dress" 7.3
+ 3714 Predicted: "Shirt" 6.9, Actual: "Pullover" 6.0
+ 3720 Predicted: "Coat" 8.5, Actual: "Dress" 7.7
+ 3730 Predicted: "Dress" 5.2, Actual: "Coat" 3.6
+ 3731 Predicted: "Pullover" 7.5, Actual: "Coat" 6.3
+ 3733 Predicted: "Sandal" 6.3, Actual: "Sneaker" 5.7
+ 3739 Predicted: "Trouser" 7.0, Actual: "Dress" 6.1
+ 3741 Predicted: "Bag" 8.5, Actual: "Shirt" 7.1
+ 3747 Predicted: "Shirt" 3.6, Actual: "T-shirt/top" 3.1
+ 3765 Predicted: "Pullover" 8.9, Actual: "Bag" 7.8
+ 3773 Predicted: "T-shirt/top" 3.9, Actual: "Pullover" 3.7
+ 3780 Predicted: "Shirt" 9.8, Actual: "Pullover" 9.7
+ 3787 Predicted: "Pullover" 4.7, Actual: "Shirt" 3.3
+ 3799 Predicted: "Coat" 10.8, Actual: "Shirt" 9.9
+ 3800 Predicted: "Pullover" 6.4, Actual: "Shirt" 4.6
+ 3804 Predicted: "Shirt" 5.8, Actual: "Coat" 4.1
+ 3805 Predicted: "T-shirt/top" 8.8, Actual: "Dress" 6.3
+ 3808 Predicted: "T-shirt/top" 8.3, Actual: "Shirt" 7.8
+ 3811 Predicted: "Dress" 10.3, Actual: "Coat" 8.2
+ 3816 Predicted: "Coat" 12.5, Actual: "Pullover" 10.7
+ 3826 Predicted: "Pullover" 6.1, Actual: "Trouser" 5.5
+ 3829 Predicted: "Trouser" 9.3, Actual: "Shirt" 0.7
+ 3830 Predicted: "T-shirt/top" 9.2, Actual: "Shirt" 5.2
+ 3861 Predicted: "Coat" 11.6, Actual: "Shirt" 8.6
+ 3864 Predicted: "Pullover" 8.1, Actual: "Shirt" 6.3
+ 3866 Predicted: "Ankle boot" 10.3, Actual: "Sandal" 7.2
+ 3871 Predicted: "Coat" 11.6, Actual: "Pullover" 9.2
+ 3876 Predicted: "Pullover" 8.8, Actual: "Shirt" 7.3
+ 3880 Predicted: "Dress" 6.0, Actual: "Pullover" 1.3
+ 3895 Predicted: "Dress" 9.0, Actual: "T-shirt/top" 7.9
+ 3896 Predicted: "Sneaker" 8.2, Actual: "Ankle boot" 8.0
+ 3926 Predicted: "Coat" 9.8, Actual: "Shirt" 8.4
+ 3929 Predicted: "Pullover" 7.3, Actual: "Trouser" 6.1
+ 3932 Predicted: "Coat" 11.0, Actual: "Pullover" 10.5
+ 3937 Predicted: "Coat" 11.7, Actual: "Pullover" 10.5
+ 3938 Predicted: "Shirt" 10.6, Actual: "T-shirt/top" 9.1
+ 3939 Predicted: "Shirt" 8.4, Actual: "Pullover" 7.9
+ 3940 Predicted: "Shirt" 8.4, Actual: "Dress" 7.8
+ 3941 Predicted: "Coat" 3.7, Actual: "Pullover" 3.1
+ 3953 Predicted: "Pullover" 7.7, Actual: "T-shirt/top" 3.8
+ 3957 Predicted: "Ankle boot" 10.9, Actual: "Sandal" 7.7
+ 3961 Predicted: "Pullover" 10.5, Actual: "Coat" 10.3
+ 3970 Predicted: "Shirt" 7.1, Actual: "Pullover" 6.4
+ 3974 Predicted: "Dress" 6.3, Actual: "Trouser" 5.5
+ 3984 Predicted: "Bag" 9.0, Actual: "Coat" 6.9
+ 3987 Predicted: "Coat" 6.6, Actual: "Shirt" 5.2
+ 3988 Predicted: "Pullover" 7.3, Actual: "Bag" 5.3
+ 4010 Predicted: "Sandal" 6.5, Actual: "Sneaker" 6.1
+ 4019 Predicted: "T-shirt/top" 6.5, Actual: "Shirt" 4.1
+ 4021 Predicted: "Coat" 11.5, Actual: "Pullover" 10.4
+ 4037 Predicted: "Coat" 13.0, Actual: "Pullover" 10.2
+ 4040 Predicted: "Sneaker" 9.7, Actual: "Sandal" 6.5
+ 4041 Predicted: "Dress" 9.6, Actual: "Pullover" 6.3
+ 4048 Predicted: "Bag" 8.4, Actual: "Sandal" 7.5
+ 4056 Predicted: "Coat" 10.1, Actual: "Dress" 8.8
+ 4058 Predicted: "Sandal" 9.8, Actual: "Sneaker" 6.5
+ 4067 Predicted: "Shirt" 9.5, Actual: "T-shirt/top" 9.3
+ 4071 Predicted: "Pullover" 8.9, Actual: "Bag" 4.8
+ 4079 Predicted: "Coat" 13.3, Actual: "Shirt" 11.1
+ 4082 Predicted: "T-shirt/top" 9.0, Actual: "Shirt" 8.7
+ 4084 Predicted: "Shirt" 9.8, Actual: "Dress" 5.2
+ 4088 Predicted: "Pullover" 9.9, Actual: "Shirt" 9.2
+ 4100 Predicted: "Coat" 9.4, Actual: "Pullover" 8.7
+ 4101 Predicted: "Ankle boot" 8.9, Actual: "Sneaker" 8.8
+ 4102 Predicted: "Shirt" 9.7, Actual: "T-shirt/top" 9.6
+ 4104 Predicted: "Shirt" 8.8, Actual: "Pullover" 8.6
+ 4106 Predicted: "Coat" 10.1, Actual: "Shirt" 9.5
+ 4111 Predicted: "Dress" 10.3, Actual: "T-shirt/top" 10.3
+ 4124 Predicted: "Coat" 5.6, Actual: "Pullover" 3.9
+ 4127 Predicted: "T-shirt/top" 6.6, Actual: "Shirt" 5.3
+ 4132 Predicted: "Sandal" 11.0, Actual: "Ankle boot" 9.6
+ 4138 Predicted: "Shirt" 8.3, Actual: "Pullover" 6.1
+ 4140 Predicted: "T-shirt/top" 11.4, Actual: "Shirt" 10.3
+ 4142 Predicted: "T-shirt/top" 5.5, Actual: "Shirt" 4.1
+ 4143 Predicted: "Pullover" 9.2, Actual: "T-shirt/top" 5.3
+ 4145 Predicted: "Dress" 7.3, Actual: "T-shirt/top" 7.2
+ 4148 Predicted: "Bag" 7.0, Actual: "Dress" 2.0
+ 4152 Predicted: "Coat" 6.7, Actual: "Shirt" 6.4
+ 4153 Predicted: "Pullover" 6.7, Actual: "Shirt" 4.7
+ 4159 Predicted: "T-shirt/top" 10.6, Actual: "Pullover" 7.5
+ 4160 Predicted: "Coat" 11.8, Actual: "Pullover" 10.7
+ 4169 Predicted: "T-shirt/top" 10.9, Actual: "Shirt" 10.9
+ 4182 Predicted: "Sneaker" 8.0, Actual: "Sandal" 6.3
+ 4184 Predicted: "Ankle boot" 9.5, Actual: "Sneaker" 8.7
+ 4192 Predicted: "T-shirt/top" 10.5, Actual: "Shirt" 9.5
+ 4194 Predicted: "T-shirt/top" 7.5, Actual: "Shirt" 5.2
+ 4213 Predicted: "Shirt" 10.9, Actual: "T-shirt/top" 10.4
+ 4217 Predicted: "Shirt" 8.2, Actual: "Pullover" 7.8
+ 4218 Predicted: "Shirt" 4.7, Actual: "Bag" 3.8
+ 4224 Predicted: "Shirt" 8.2, Actual: "T-shirt/top" 7.7
+ 4231 Predicted: "T-shirt/top" 13.8, Actual: "Shirt" 11.7
+ 4233 Predicted: "Pullover" 8.7, Actual: "Coat" 5.7
+ 4251 Predicted: "Shirt" 7.5, Actual: "Coat" 1.9
+ 4262 Predicted: "Dress" 8.5, Actual: "T-shirt/top" 7.0
+ 4267 Predicted: "Pullover" 7.0, Actual: "Shirt" 5.7
+ 4271 Predicted: "T-shirt/top" 9.4, Actual: "Shirt" 9.3
+ 4272 Predicted: "Shirt" 9.8, Actual: "Coat" 9.4
+ 4274 Predicted: "Shirt" 10.1, Actual: "Bag" 9.1
+ 4275 Predicted: "Dress" 8.9, Actual: "T-shirt/top" 8.5
+ 4280 Predicted: "T-shirt/top" 12.4, Actual: "Shirt" 8.9
+ 4286 Predicted: "Coat" 4.2, Actual: "Pullover" 3.8
+ 4299 Predicted: "Trouser" 6.6, Actual: "Shirt" 4.7
+ 4300 Predicted: "Coat" 8.6, Actual: "Pullover" 8.0
+ 4307 Predicted: "Dress" 8.4, Actual: "Coat" 7.6
+ 4329 Predicted: "Pullover" 6.1, Actual: "Shirt" 3.9
+ 4362 Predicted: "Bag" 6.0, Actual: "Sandal" 5.6
+ 4363 Predicted: "Coat" 6.9, Actual: "Pullover" 5.4
+ 4365 Predicted: "Bag" 8.2, Actual: "Shirt" 7.7
+ 4391 Predicted: "Sandal" 8.2, Actual: "Ankle boot" 7.9
+ 4394 Predicted: "Bag" 7.7, Actual: "Dress" 6.7
+ 4399 Predicted: "Coat" 8.3, Actual: "Shirt" 7.3
+ 4404 Predicted: "Sneaker" 11.7, Actual: "Ankle boot" 10.3
+ 4405 Predicted: "Sneaker" 9.5, Actual: "Sandal" 6.2
+ 4416 Predicted: "Pullover" 6.8, Actual: "Shirt" 5.2
+ 4417 Predicted: "Shirt" 8.2, Actual: "Coat" 7.7
+ 4420 Predicted: "Pullover" 3.4, Actual: "Shirt" 3.4
+ 4451 Predicted: "T-shirt/top" 7.3, Actual: "Shirt" 4.8
+ 4484 Predicted: "Dress" 6.9, Actual: "Coat" 6.3
+ 4486 Predicted: "T-shirt/top" 5.4, Actual: "Dress" 5.3
+ 4495 Predicted: "Bag" 5.7, Actual: "Pullover" 4.2
+ 4501 Predicted: "Shirt" 9.3, Actual: "Coat" 9.1
+ 4507 Predicted: "Sneaker" 7.3, Actual: "Ankle boot" 7.2
+ 4508 Predicted: "Shirt" 9.1, Actual: "T-shirt/top" 9.0
+ 4509 Predicted: "Dress" 6.4, Actual: "Shirt" 6.3
+ 4526 Predicted: "Shirt" 6.5, Actual: "Coat" 4.4
+ 4542 Predicted: "T-shirt/top" 7.9, Actual: "Shirt" 7.9
+ 4549 Predicted: "Sneaker" 9.2, Actual: "Ankle boot" 9.1
+ 4566 Predicted: "Dress" 10.0, Actual: "Coat" 9.4
+ 4569 Predicted: "Dress" 5.7, Actual: "Shirt" 5.5
+ 4585 Predicted: "Coat" 7.8, Actual: "Shirt" 7.7
+ 4595 Predicted: "Bag" 8.6, Actual: "Shirt" 7.2
+ 4599 Predicted: "Ankle boot" 14.7, Actual: "Sandal" 11.2
+ 4608 Predicted: "Shirt" 6.5, Actual: "Coat" 5.4
+ 4615 Predicted: "Sandal" 7.7, Actual: "Ankle boot" 6.0
+ 4629 Predicted: "Coat" 10.5, Actual: "Pullover" 9.2
+ 4639 Predicted: "Shirt" 4.3, Actual: "Coat" 3.9
+ 4641 Predicted: "Pullover" 9.6, Actual: "Coat" 9.5
+ 4642 Predicted: "Bag" 5.6, Actual: "Shirt" 3.6
+ 4645 Predicted: "Coat" 6.1, Actual: "Shirt" 5.7
+ 4646 Predicted: "Pullover" 9.8, Actual: "Coat" 8.7
+ 4649 Predicted: "Coat" 12.3, Actual: "Pullover" 10.2
+ 4652 Predicted: "Pullover" 8.9, Actual: "Coat" 8.1
+ 4658 Predicted: "Dress" 7.6, Actual: "T-shirt/top" 4.2
+ 4664 Predicted: "Shirt" 6.8, Actual: "Dress" 6.4
+ 4665 Predicted: "Pullover" 4.4, Actual: "T-shirt/top" 4.1
+ 4668 Predicted: "Pullover" 10.5, Actual: "Coat" 8.9
+ 4672 Predicted: "Dress" 5.1, Actual: "Shirt" 3.0
+ 4674 Predicted: "Shirt" 9.5, Actual: "Pullover" 8.0
+ 4677 Predicted: "Coat" 4.8, Actual: "Shirt" 4.7
+ 4681 Predicted: "Ankle boot" 10.9, Actual: "Sneaker" 10.8
+ 4685 Predicted: "Coat" 9.9, Actual: "Pullover" 6.4
+ 4687 Predicted: "Coat" 10.0, Actual: "Pullover" 8.0
+ 4692 Predicted: "T-shirt/top" 8.2, Actual: "Shirt" 5.7
+ 4693 Predicted: "Ankle boot" 8.9, Actual: "Sneaker" 5.7
+ 4694 Predicted: "Coat" 9.4, Actual: "Pullover" 7.9
+ 4708 Predicted: "Shirt" 3.8, Actual: "Bag" 3.2
+ 4711 Predicted: "Dress" 10.4, Actual: "T-shirt/top" 8.1
+ 4724 Predicted: "Dress" 7.1, Actual: "Shirt" 6.8
+ 4727 Predicted: "T-shirt/top" 10.0, Actual: "Shirt" 6.7
+ 4731 Predicted: "Ankle boot" 8.5, Actual: "Sandal" 7.6
+ 4738 Predicted: "Coat" 10.2, Actual: "Pullover" 9.0
+ 4742 Predicted: "Ankle boot" 8.0, Actual: "Sandal" 7.9
+ 4743 Predicted: "Sandal" 6.2, Actual: "Ankle boot" 3.6
+ 4746 Predicted: "Sneaker" 8.7, Actual: "Ankle boot" 7.9
+ 4751 Predicted: "Coat" 8.1, Actual: "Dress" 7.9
+ 4756 Predicted: "Pullover" 6.2, Actual: "Coat" 6.1
+ 4775 Predicted: "Shirt" 8.4, Actual: "Coat" 7.8
+ 4778 Predicted: "Coat" 11.3, Actual: "Pullover" 11.3
+ 4803 Predicted: "T-shirt/top" 13.0, Actual: "Shirt" 9.2
+ 4807 Predicted: "Sneaker" 6.3, Actual: "Sandal" 3.8
+ 4817 Predicted: "Coat" 9.5, Actual: "Shirt" 7.7
+ 4823 Predicted: "Coat" 11.6, Actual: "Pullover" 9.9
+ 4826 Predicted: "Shirt" 8.4, Actual: "Pullover" 8.2
+ 4828 Predicted: "Coat" 12.4, Actual: "Pullover" 10.2
+ 4829 Predicted: "Sneaker" 11.7, Actual: "Bag" 2.0
+ 4842 Predicted: "T-shirt/top" 5.5, Actual: "Shirt" 4.1
+ 4845 Predicted: "T-shirt/top" 12.8, Actual: "Shirt" 12.0
+ 4846 Predicted: "Coat" 11.3, Actual: "Pullover" 8.5
+ 4847 Predicted: "Shirt" 6.3, Actual: "Pullover" 6.1
+ 4850 Predicted: "Sneaker" 12.4, Actual: "Ankle boot" 11.2
+ 4852 Predicted: "T-shirt/top" 6.6, Actual: "Dress" 6.3
+ 4859 Predicted: "Sandal" 7.2, Actual: "Sneaker" 5.1
+ 4866 Predicted: "Sneaker" 11.1, Actual: "Ankle boot" 10.9
+ 4874 Predicted: "Pullover" 5.6, Actual: "Shirt" 4.0
+ 4878 Predicted: "Coat" 6.4, Actual: "Pullover" 5.0
+ 4882 Predicted: "Coat" 11.3, Actual: "Pullover" 11.0
+ 4886 Predicted: "T-shirt/top" 6.5, Actual: "Shirt" 4.8
+ 4893 Predicted: "T-shirt/top" 8.0, Actual: "Shirt" 6.8
+ 4894 Predicted: "Ankle boot" 8.9, Actual: "Sandal" 8.1
+ 4896 Predicted: "T-shirt/top" 13.9, Actual: "Shirt" 13.4
+ 4897 Predicted: "Shirt" 12.0, Actual: "T-shirt/top" 10.9
+ 4907 Predicted: "Dress" 7.5, Actual: "Coat" 4.3
+ 4920 Predicted: "Ankle boot" 11.7, Actual: "Sneaker" 11.1
+ 4922 Predicted: "Dress" 6.0, Actual: "Coat" 4.0
+ 4924 Predicted: "Coat" 6.4, Actual: "T-shirt/top" 4.9
+ 4934 Predicted: "Shirt" 9.2, Actual: "Dress" 5.2
+ 4936 Predicted: "Ankle boot" 11.8, Actual: "Sandal" 9.8
+ 4947 Predicted: "Pullover" 7.5, Actual: "Bag" 7.5
+ 4948 Predicted: "Sneaker" 8.5, Actual: "Sandal" 7.3
+ 4956 Predicted: "Coat" 9.7, Actual: "Pullover" 9.6
+ 4965 Predicted: "Shirt" 9.0, Actual: "T-shirt/top" 8.1
+ 5002 Predicted: "T-shirt/top" 7.6, Actual: "Shirt" 7.5
+ 5004 Predicted: "Coat" 9.9, Actual: "Shirt" 9.0
+ 5006 Predicted: "Dress" 8.8, Actual: "Shirt" 2.1
+ 5009 Predicted: "Sneaker" 14.2, Actual: "Ankle boot" 11.6
+ 5012 Predicted: "Pullover" 6.0, Actual: "Dress" 5.4
+ 5015 Predicted: "Coat" 7.3, Actual: "Pullover" 4.8
+ 5023 Predicted: "Sandal" 2.9, Actual: "T-shirt/top" 2.4
+ 5026 Predicted: "Coat" 9.1, Actual: "Pullover" 8.3
+ 5028 Predicted: "Shirt" 9.3, Actual: "T-shirt/top" 9.2
+ 5030 Predicted: "Shirt" 7.6, Actual: "T-shirt/top" 4.0
+ 5036 Predicted: "Dress" 9.9, Actual: "Coat" 6.9
+ 5037 Predicted: "Pullover" 5.1, Actual: "Dress" 5.1
+ 5040 Predicted: "Coat" 6.4, Actual: "Shirt" 5.9
+ 5046 Predicted: "Pullover" 9.6, Actual: "Coat" 9.0
+ 5052 Predicted: "Coat" 10.7, Actual: "Shirt" 6.3
+ 5056 Predicted: "Sneaker" 7.9, Actual: "Sandal" 5.3
+ 5065 Predicted: "Bag" 8.4, Actual: "Shirt" 3.8
+ 5066 Predicted: "Pullover" 9.9, Actual: "Coat" 8.3
+ 5069 Predicted: "Sneaker" 7.0, Actual: "Ankle boot" 7.0
+ 5070 Predicted: "Dress" 6.7, Actual: "Coat" 5.2
+ 5075 Predicted: "Coat" 9.0, Actual: "Pullover" 8.2
+ 5077 Predicted: "Sneaker" 8.9, Actual: "Ankle boot" 4.0
+ 5082 Predicted: "Ankle boot" 13.4, Actual: "Sandal" 7.5
+ 5084 Predicted: "Sneaker" 8.6, Actual: "Sandal" 7.8
+ 5088 Predicted: "T-shirt/top" 6.8, Actual: "Shirt" 6.6
+ 5096 Predicted: "Coat" 10.3, Actual: "Shirt" 9.9
+ 5097 Predicted: "Coat" 6.3, Actual: "Pullover" 6.0
+ 5100 Predicted: "Pullover" 5.5, Actual: "Coat" 5.2
+ 5113 Predicted: "Dress" 8.8, Actual: "Coat" 8.7
+ 5114 Predicted: "Sandal" 3.2, Actual: "Bag" 3.2
+ 5119 Predicted: "Shirt" 11.1, Actual: "T-shirt/top" 9.9
+ 5123 Predicted: "Bag" 8.0, Actual: "Shirt" 5.0
+ 5125 Predicted: "Coat" 6.5, Actual: "Pullover" 5.8
+ 5144 Predicted: "Shirt" 9.4, Actual: "T-shirt/top" 8.1
+ 5148 Predicted: "Shirt" 10.4, Actual: "Bag" 6.6
+ 5155 Predicted: "Pullover" 7.3, Actual: "Shirt" 3.6
+ 5159 Predicted: "Coat" 6.8, Actual: "Pullover" 6.1
+ 5161 Predicted: "Coat" 10.2, Actual: "Shirt" 8.5
+ 5164 Predicted: "Sneaker" 9.9, Actual: "Ankle boot" 8.1
+ 5167 Predicted: "Pullover" 8.8, Actual: "Coat" 6.4
+ 5168 Predicted: "Coat" 9.9, Actual: "Shirt" 7.6
+ 5172 Predicted: "Dress" 7.9, Actual: "T-shirt/top" 7.5
+ 5178 Predicted: "Sandal" 6.8, Actual: "Sneaker" 5.8
+ 5184 Predicted: "Pullover" 8.3, Actual: "Shirt" 6.1
+ 5186 Predicted: "T-shirt/top" 13.4, Actual: "Shirt" 11.7
+ 5197 Predicted: "Coat" 7.2, Actual: "Shirt" 4.8
+ 5204 Predicted: "Shirt" 5.6, Actual: "Dress" 2.4
+ 5210 Predicted: "Sandal" 9.0, Actual: "Sneaker" 4.8
+ 5228 Predicted: "Pullover" 9.6, Actual: "Shirt" 8.7
+ 5229 Predicted: "Ankle boot" 10.4, Actual: "Sandal" 8.7
+ 5235 Predicted: "Bag" 6.6, Actual: "Sandal" 4.1
+ 5248 Predicted: "Dress" 7.2, Actual: "Shirt" 1.6
+ 5249 Predicted: "Dress" 5.3, Actual: "Shirt" 2.8
+ 5251 Predicted: "Trouser" 9.0, Actual: "Dress" 6.7
+ 5254 Predicted: "Coat" 6.8, Actual: "Shirt" 6.7
+ 5255 Predicted: "Pullover" 11.2, Actual: "Coat" 8.8
+ 5257 Predicted: "T-shirt/top" 4.1, Actual: "Dress" 3.5
+ 5266 Predicted: "T-shirt/top" 6.9, Actual: "Shirt" 6.6
+ 5282 Predicted: "Pullover" 5.7, Actual: "Shirt" 5.2
+ 5285 Predicted: "Dress" 3.4, Actual: "Sandal" 2.9
+ 5297 Predicted: "Shirt" 3.6, Actual: "T-shirt/top" 2.9
+ 5307 Predicted: "Shirt" 8.0, Actual: "T-shirt/top" 6.8
+ 5316 Predicted: "Ankle boot" 9.8, Actual: "Sneaker" 5.4
+ 5327 Predicted: "Dress" 9.7, Actual: "Trouser" 5.6
+ 5332 Predicted: "Sandal" 7.4, Actual: "Sneaker" 7.1
+ 5334 Predicted: "Dress" 10.9, Actual: "T-shirt/top" 6.0
+ 5336 Predicted: "Pullover" 8.3, Actual: "Coat" 8.1
+ 5338 Predicted: "Bag" 8.0, Actual: "T-shirt/top" -0.1
+ 5345 Predicted: "Bag" 6.2, Actual: "Shirt" 5.6
+ 5363 Predicted: "Coat" 8.6, Actual: "Pullover" 7.9
+ 5381 Predicted: "Pullover" 8.1, Actual: "Coat" 5.2
+ 5383 Predicted: "Shirt" 5.8, Actual: "Pullover" 5.6
+ 5395 Predicted: "Shirt" 8.8, Actual: "Bag" 7.9
+ 5397 Predicted: "Pullover" 10.8, Actual: "Coat" 8.7
+ 5424 Predicted: "Dress" 10.4, Actual: "Shirt" 6.4
+ 5429 Predicted: "Pullover" 8.8, Actual: "Coat" 7.8
+ 5435 Predicted: "Shirt" 5.7, Actual: "T-shirt/top" 5.3
+ 5441 Predicted: "Pullover" 10.7, Actual: "Coat" 10.3
+ 5442 Predicted: "Dress" 6.9, Actual: "Shirt" 5.1
+ 5450 Predicted: "Shirt" 7.2, Actual: "Bag" 7.0
+ 5452 Predicted: "Coat" 8.9, Actual: "Shirt" 7.4
+ 5468 Predicted: "Shirt" 9.2, Actual: "Pullover" 6.2
+ 5469 Predicted: "T-shirt/top" 5.3, Actual: "Shirt" 5.0
+ 5470 Predicted: "Coat" 9.6, Actual: "Bag" 4.1
+ 5471 Predicted: "Coat" 4.0, Actual: "Pullover" 2.1
+ 5474 Predicted: "Coat" 11.9, Actual: "Pullover" 8.7
+ 5476 Predicted: "Sneaker" 6.9, Actual: "Ankle boot" 6.7
+ 5481 Predicted: "Coat" 9.9, Actual: "Pullover" 9.6
+ 5482 Predicted: "Shirt" 8.6, Actual: "Coat" 8.1
+ 5484 Predicted: "Coat" 10.1, Actual: "Pullover" 9.3
+ 5488 Predicted: "T-shirt/top" 7.8, Actual: "Dress" 5.7
+ 5497 Predicted: "Pullover" 10.6, Actual: "Shirt" 6.7
+ 5504 Predicted: "T-shirt/top" 7.9, Actual: "Shirt" 7.5
+ 5510 Predicted: "Bag" 5.1, Actual: "Shirt" 4.0
+ 5511 Predicted: "Pullover" 4.2, Actual: "Coat" 0.4
+ 5512 Predicted: "Bag" 10.1, Actual: "Ankle boot" 2.2
+ 5520 Predicted: "Ankle boot" 10.3, Actual: "Sneaker" 8.4
+ 5521 Predicted: "Pullover" 9.4, Actual: "Shirt" 8.0
+ 5522 Predicted: "Dress" 7.0, Actual: "Shirt" 4.9
+ 5525 Predicted: "Sneaker" 8.5, Actual: "Ankle boot" 6.4
+ 5530 Predicted: "Pullover" 8.3, Actual: "Shirt" 7.2
+ 5533 Predicted: "Dress" 6.5, Actual: "Trouser" 3.1
+ 5546 Predicted: "Pullover" 7.1, Actual: "Coat" 6.8
+ 5556 Predicted: "Pullover" 8.7, Actual: "Bag" 7.2
+ 5561 Predicted: "Dress" 3.6, Actual: "Sandal" -0.1
+ 5563 Predicted: "Sneaker" 7.5, Actual: "Sandal" 6.1
+ 5566 Predicted: "Dress" 6.6, Actual: "Shirt" 6.5
+ 5568 Predicted: "Coat" 11.2, Actual: "Pullover" 10.0
+ 5569 Predicted: "Dress" 8.5, Actual: "Shirt" 3.6
+ 5575 Predicted: "Coat" 7.6, Actual: "Dress" 6.5
+ 5576 Predicted: "Coat" 10.0, Actual: "Dress" 8.0
+ 5578 Predicted: "Shirt" 9.4, Actual: "Pullover" 9.4
+ 5583 Predicted: "Dress" 6.3, Actual: "Coat" 6.1
+ 5586 Predicted: "T-shirt/top" 7.9, Actual: "Shirt" 7.9
+ 5587 Predicted: "Coat" 8.1, Actual: "Pullover" 7.0
+ 5592 Predicted: "Shirt" 10.2, Actual: "Dress" 8.5
+ 5594 Predicted: "Pullover" 10.7, Actual: "Shirt" 7.0
+ 5596 Predicted: "Coat" 9.3, Actual: "Shirt" 6.8
+ 5597 Predicted: "Coat" 6.7, Actual: "Trouser" 2.9
+ 5601 Predicted: "Shirt" 8.0, Actual: "T-shirt/top" 6.8
+ 5604 Predicted: "Dress" 9.3, Actual: "Coat" 9.3
+ 5605 Predicted: "Pullover" 5.2, Actual: "Coat" 3.7
+ 5623 Predicted: "Pullover" 11.0, Actual: "Shirt" 9.4
+ 5634 Predicted: "T-shirt/top" 7.7, Actual: "Shirt" 6.7
+ 5648 Predicted: "Pullover" 6.7, Actual: "Shirt" 6.1
+ 5654 Predicted: "T-shirt/top" 8.8, Actual: "Shirt" 7.5
+ 5655 Predicted: "T-shirt/top" 4.6, Actual: "Trouser" 4.2
+ 5657 Predicted: "Coat" 8.4, Actual: "Pullover" 8.0
+ 5659 Predicted: "Shirt" 7.3, Actual: "T-shirt/top" 6.5
+ 5667 Predicted: "Shirt" 6.5, Actual: "Bag" 6.4
+ 5674 Predicted: "T-shirt/top" 9.0, Actual: "Shirt" 8.6
+ 5679 Predicted: "Pullover" 8.6, Actual: "Shirt" 7.0
+ 5682 Predicted: "Coat" 10.6, Actual: "Shirt" 10.5
+ 5683 Predicted: "T-shirt/top" 6.4, Actual: "Shirt" 6.4
+ 5685 Predicted: "Ankle boot" 11.1, Actual: "Sandal" 10.9
+ 5689 Predicted: "Sneaker" 9.1, Actual: "Sandal" 6.9
+ 5691 Predicted: "Shirt" 8.2, Actual: "Bag" 6.6
+ 5695 Predicted: "T-shirt/top" 10.6, Actual: "Shirt" 8.6
+ 5701 Predicted: "T-shirt/top" 9.9, Actual: "Pullover" 8.4
+ 5703 Predicted: "Ankle boot" 8.7, Actual: "Sandal" 7.7
+ 5710 Predicted: "Shirt" 9.2, Actual: "Pullover" 5.4
+ 5713 Predicted: "Shirt" 8.7, Actual: "Pullover" 6.6
+ 5714 Predicted: "Coat" 7.4, Actual: "Pullover" 6.4
+ 5718 Predicted: "Shirt" 9.1, Actual: "T-shirt/top" 7.7
+ 5719 Predicted: "Coat" 10.4, Actual: "Pullover" 9.6
+ 5721 Predicted: "Shirt" 9.4, Actual: "Coat" 8.5
+ 5725 Predicted: "Coat" 9.6, Actual: "Pullover" 8.4
+ 5734 Predicted: "Shirt" 8.6, Actual: "Pullover" 7.2
+ 5739 Predicted: "Dress" 8.0, Actual: "T-shirt/top" 6.9
+ 5746 Predicted: "Dress" 6.8, Actual: "Trouser" 2.2
+ 5749 Predicted: "Coat" 9.2, Actual: "Shirt" 8.4
+ 5752 Predicted: "Coat" 14.0, Actual: "Pullover" 11.9
+ 5760 Predicted: "Dress" 4.8, Actual: "Trouser" 2.1
+ 5762 Predicted: "Pullover" 11.1, Actual: "Coat" 9.3
+ 5763 Predicted: "Trouser" 10.6, Actual: "Dress" 5.5
+ 5792 Predicted: "Shirt" 6.8, Actual: "Pullover" 6.0
+ 5795 Predicted: "Coat" 12.8, Actual: "Shirt" 9.9
+ 5804 Predicted: "Coat" 7.9, Actual: "Pullover" 7.2
+ 5806 Predicted: "T-shirt/top" 11.9, Actual: "Shirt" 7.8
+ 5808 Predicted: "Shirt" 5.6, Actual: "T-shirt/top" 5.1
+ 5816 Predicted: "Pullover" 9.6, Actual: "Shirt" 9.0
+ 5820 Predicted: "Shirt" 11.4, Actual: "Pullover" 7.7
+ 5826 Predicted: "Coat" 11.3, Actual: "Shirt" 8.7
+ 5828 Predicted: "T-shirt/top" 7.6, Actual: "Shirt" 6.5
+ 5840 Predicted: "T-shirt/top" 8.8, Actual: "Dress" 8.3
+ 5853 Predicted: "Coat" 11.7, Actual: "Pullover" 8.9
+ 5881 Predicted: "Shirt" 8.4, Actual: "Coat" 7.7
+ 5885 Predicted: "Coat" 12.2, Actual: "Shirt" 8.4
+ 5899 Predicted: "Ankle boot" 8.2, Actual: "Sandal" 6.5
+ 5917 Predicted: "Coat" 8.1, Actual: "Shirt" 7.5
+ 5919 Predicted: "Pullover" 11.0, Actual: "Coat" 9.4
+ 5934 Predicted: "Coat" 10.1, Actual: "Pullover" 10.0
+ 5938 Predicted: "Sneaker" 8.2, Actual: "Ankle boot" 6.3
+ 5943 Predicted: "Shirt" 10.8, Actual: "T-shirt/top" 10.7
+ 5946 Predicted: "Sandal" 10.5, Actual: "Ankle boot" 9.3
+ 5956 Predicted: "Coat" 9.3, Actual: "Pullover" 7.9
+ 5966 Predicted: "Shirt" 10.5, Actual: "T-shirt/top" 8.1
+ 5974 Predicted: "Coat" 6.1, Actual: "Pullover" 5.6
+ 5977 Predicted: "T-shirt/top" 7.5, Actual: "Shirt" 7.0
+ 5980 Predicted: "Coat" 7.8, Actual: "Pullover" 7.7
+ 5983 Predicted: "Coat" 10.7, Actual: "Shirt" 9.2
+ 5987 Predicted: "Dress" 8.5, Actual: "Shirt" 2.4
+ 6002 Predicted: "Coat" 10.9, Actual: "Shirt" 9.7
+ 6008 Predicted: "T-shirt/top" 7.9, Actual: "Shirt" 7.3
+ 6012 Predicted: "Shirt" 7.0, Actual: "Dress" 6.1
+ 6020 Predicted: "T-shirt/top" 8.9, Actual: "Shirt" 6.2
+ 6023 Predicted: "Pullover" 4.9, Actual: "Shirt" 2.3
+ 6024 Predicted: "T-shirt/top" 14.8, Actual: "Shirt" 9.8
+ 6026 Predicted: "Coat" 11.1, Actual: "Shirt" 9.9
+ 6032 Predicted: "Coat" 7.2, Actual: "Pullover" 5.9
+ 6037 Predicted: "Pullover" 8.1, Actual: "Shirt" 7.3
+ 6061 Predicted: "Ankle boot" 9.5, Actual: "Sandal" 8.3
+ 6065 Predicted: "Dress" 5.6, Actual: "T-shirt/top" 4.5
+ 6076 Predicted: "Dress" 3.6, Actual: "Bag" 3.4
+ 6083 Predicted: "Coat" 10.4, Actual: "Pullover" 9.5
+ 6085 Predicted: "Ankle boot" 12.2, Actual: "Sneaker" 10.7
+ 6094 Predicted: "Shirt" 8.6, Actual: "T-shirt/top" 7.3
+ 6096 Predicted: "Pullover" 10.9, Actual: "Shirt" 6.8
+ 6099 Predicted: "Sandal" 4.4, Actual: "Pullover" 2.2
+ 6103 Predicted: "Shirt" 4.4, Actual: "Coat" 2.6
+ 6106 Predicted: "Sneaker" 11.1, Actual: "Ankle boot" 10.4
+ 6117 Predicted: "Dress" 6.3, Actual: "Trouser" 2.8
+ 6127 Predicted: "Pullover" 6.5, Actual: "Shirt" 3.9
+ 6129 Predicted: "Ankle boot" 10.9, Actual: "Sneaker" 9.7
+ 6132 Predicted: "Pullover" 4.6, Actual: "Dress" 4.1
+ 6138 Predicted: "Sneaker" 7.3, Actual: "Sandal" 6.2
+ 6142 Predicted: "Dress" 5.6, Actual: "Bag" 4.5
+ 6147 Predicted: "Sneaker" 8.7, Actual: "Sandal" 6.5
+ 6148 Predicted: "Shirt" 8.1, Actual: "Coat" 7.9
+ 6156 Predicted: "Coat" 8.6, Actual: "Shirt" 7.9
+ 6160 Predicted: "Coat" 11.7, Actual: "Shirt" 9.6
+ 6168 Predicted: "Sneaker" 6.8, Actual: "Sandal" 5.9
+ 6169 Predicted: "T-shirt/top" 8.5, Actual: "Shirt" 7.2
+ 6175 Predicted: "Pullover" 9.8, Actual: "Coat" 8.4
+ 6186 Predicted: "Trouser" 7.9, Actual: "Dress" 7.4
+ 6191 Predicted: "Bag" 3.6, Actual: "T-shirt/top" 2.8
+ 6197 Predicted: "Sandal" 9.6, Actual: "Ankle boot" 8.8
+ 6207 Predicted: "Coat" 9.9, Actual: "Dress" 8.2
+ 6213 Predicted: "Pullover" 8.8, Actual: "Bag" 8.3
+ 6225 Predicted: "Shirt" 9.6, Actual: "T-shirt/top" 9.2
+ 6230 Predicted: "Pullover" 6.7, Actual: "Bag" 6.3
+ 6231 Predicted: "Dress" 8.5, Actual: "Shirt" 7.2
+ 6234 Predicted: "Shirt" 9.0, Actual: "Coat" 8.8
+ 6241 Predicted: "Pullover" 8.4, Actual: "Coat" 7.4
+ 6242 Predicted: "Dress" 10.0, Actual: "Coat" 7.9
+ 6243 Predicted: "Coat" 12.3, Actual: "Pullover" 12.1
+ 6248 Predicted: "Dress" 5.3, Actual: "Shirt" 4.6
+ 6254 Predicted: "Coat" 9.3, Actual: "Shirt" 7.5
+ 6258 Predicted: "T-shirt/top" 9.0, Actual: "Shirt" 8.2
+ 6270 Predicted: "Pullover" 8.8, Actual: "Coat" 8.3
+ 6273 Predicted: "Coat" 11.2, Actual: "Shirt" 11.1
+ 6285 Predicted: "Coat" 8.6, Actual: "Pullover" 5.2
+ 6293 Predicted: "Dress" 5.4, Actual: "T-shirt/top" 5.0
+ 6300 Predicted: "Ankle boot" 9.4, Actual: "Sneaker" 8.5
+ 6314 Predicted: "Dress" 5.0, Actual: "Bag" 2.1
+ 6323 Predicted: "Sneaker" 9.3, Actual: "Sandal" 8.5
+ 6329 Predicted: "Pullover" 8.5, Actual: "Shirt" 5.8
+ 6331 Predicted: "Bag" 3.7, Actual: "Trouser" 0.6
+ 6335 Predicted: "Pullover" 7.6, Actual: "Shirt" 7.4
+ 6344 Predicted: "T-shirt/top" 11.1, Actual: "Shirt" 9.9
+ 6356 Predicted: "Dress" 8.9, Actual: "Shirt" 8.7
+ 6360 Predicted: "Shirt" 9.2, Actual: "Coat" 8.8
+ 6363 Predicted: "Dress" 7.6, Actual: "Shirt" 7.0
+ 6365 Predicted: "Pullover" 8.0, Actual: "T-shirt/top" 4.6
+ 6367 Predicted: "Sneaker" 8.1, Actual: "Sandal" 6.3
+ 6368 Predicted: "Pullover" 5.5, Actual: "Shirt" 4.2
+ 6369 Predicted: "Sneaker" 6.9, Actual: "Sandal" 6.5
+ 6381 Predicted: "Shirt" 6.6, Actual: "Coat" 6.2
+ 6387 Predicted: "Shirt" 4.4, Actual: "Coat" 3.9
+ 6400 Predicted: "Shirt" 9.5, Actual: "Coat" 9.4
+ 6402 Predicted: "Pullover" 12.1, Actual: "Coat" 8.8
+ 6403 Predicted: "Dress" 6.8, Actual: "Bag" 5.2
+ 6404 Predicted: "Coat" 9.0, Actual: "Pullover" 6.9
+ 6407 Predicted: "Coat" 10.4, Actual: "Shirt" 10.0
+ 6420 Predicted: "Dress" 9.0, Actual: "Coat" 6.4
+ 6422 Predicted: "Pullover" 6.3, Actual: "Shirt" 5.9
+ 6433 Predicted: "Shirt" 8.1, Actual: "Dress" 2.0
+ 6437 Predicted: "Pullover" 9.3, Actual: "Shirt" 7.2
+ 6439 Predicted: "Dress" 6.0, Actual: "Pullover" 4.2
+ 6441 Predicted: "Dress" 4.7, Actual: "Bag" 2.4
+ 6447 Predicted: "Shirt" 3.8, Actual: "Coat" 3.5
+ 6452 Predicted: "T-shirt/top" 3.5, Actual: "Shirt" 2.9
+ 6464 Predicted: "Dress" 11.0, Actual: "Coat" 9.0
+ 6474 Predicted: "Dress" 10.0, Actual: "Pullover" 8.1
+ 6475 Predicted: "Sandal" 6.5, Actual: "Sneaker" 5.6
+ 6478 Predicted: "Pullover" 10.3, Actual: "Coat" 8.2
+ 6485 Predicted: "Shirt" 7.6, Actual: "T-shirt/top" 5.2
+ 6488 Predicted: "Sneaker" 10.7, Actual: "Ankle boot" 9.8
+ 6491 Predicted: "Shirt" 6.6, Actual: "Dress" 6.0
+ 6498 Predicted: "Ankle boot" 6.8, Actual: "Sandal" 6.4
+ 6500 Predicted: "Trouser" 9.8, Actual: "Coat" 7.3
+ 6503 Predicted: "Sneaker" 8.4, Actual: "Sandal" 6.7
+ 6504 Predicted: "Sneaker" 7.1, Actual: "Sandal" 5.0
+ 6511 Predicted: "Coat" 9.6, Actual: "Pullover" 9.4
+ 6513 Predicted: "Pullover" 9.9, Actual: "Coat" 8.8
+ 6517 Predicted: "Coat" 5.7, Actual: "Shirt" 5.7
+ 6524 Predicted: "Shirt" 9.8, Actual: "Pullover" 7.7
+ 6531 Predicted: "Coat" 10.1, Actual: "Shirt" 9.3
+ 6539 Predicted: "Coat" 12.1, Actual: "Shirt" 8.4
+ 6540 Predicted: "Coat" 11.3, Actual: "Shirt" 10.3
+ 6547 Predicted: "Shirt" 10.6, Actual: "Coat" 9.9
+ 6548 Predicted: "Coat" 10.9, Actual: "Shirt" 10.3
+ 6558 Predicted: "T-shirt/top" 4.8, Actual: "Shirt" 3.2
+ 6559 Predicted: "Shirt" 6.8, Actual: "Coat" 4.4
+ 6561 Predicted: "Dress" 9.6, Actual: "Coat" 9.3
+ 6565 Predicted: "Sneaker" 8.9, Actual: "Bag" 3.0
+ 6567 Predicted: "Coat" 6.5, Actual: "Pullover" 6.2
+ 6575 Predicted: "Pullover" 6.3, Actual: "Shirt" 4.5
+ 6578 Predicted: "Pullover" 9.7, Actual: "Shirt" 9.6
+ 6584 Predicted: "Coat" 9.1, Actual: "Dress" 7.8
+ 6591 Predicted: "T-shirt/top" 3.9, Actual: "Shirt" 3.9
+ 6594 Predicted: "Dress" 7.2, Actual: "Bag" 5.9
+ 6596 Predicted: "Bag" 6.4, Actual: "Shirt" 2.6
+ 6597 Predicted: "Ankle boot" 6.7, Actual: "Sandal" 6.3
+ 6614 Predicted: "Shirt" 11.6, Actual: "Dress" 7.0
+ 6626 Predicted: "Coat" 7.7, Actual: "Shirt" 5.3
+ 6634 Predicted: "Sneaker" 6.9, Actual: "Sandal" 5.8
+ 6636 Predicted: "Coat" 7.2, Actual: "Dress" 6.4
+ 6640 Predicted: "Coat" 11.2, Actual: "Shirt" 10.4
+ 6648 Predicted: "Pullover" 7.6, Actual: "Shirt" 7.5
+ 6649 Predicted: "Dress" 5.8, Actual: "T-shirt/top" 4.4
+ 6655 Predicted: "T-shirt/top" 11.8, Actual: "Shirt" 8.6
+ 6656 Predicted: "Dress" 9.2, Actual: "Trouser" 1.2
+ 6664 Predicted: "T-shirt/top" 7.9, Actual: "Shirt" 7.5
+ 6665 Predicted: "Shirt" 7.2, Actual: "Bag" 5.6
+ 6676 Predicted: "Coat" 6.6, Actual: "Dress" 4.1
+ 6679 Predicted: "Shirt" 4.9, Actual: "T-shirt/top" 3.6
+ 6680 Predicted: "Ankle boot" 10.8, Actual: "Sneaker" 10.8
+ 6686 Predicted: "Ankle boot" 12.3, Actual: "Sneaker" 11.1
+ 6688 Predicted: "Shirt" 9.6, Actual: "T-shirt/top" 3.4
+ 6689 Predicted: "Coat" 7.7, Actual: "Dress" 4.3
+ 6691 Predicted: "Bag" 4.9, Actual: "Pullover" 3.2
+ 6700 Predicted: "Pullover" 5.7, Actual: "Shirt" 4.9
+ 6701 Predicted: "Ankle boot" 11.5, Actual: "Sneaker" 8.4
+ 6709 Predicted: "Pullover" 5.6, Actual: "Coat" 4.8
+ 6710 Predicted: "Pullover" 4.2, Actual: "T-shirt/top" 4.2
+ 6715 Predicted: "Pullover" 9.2, Actual: "Coat" 8.1
+ 6718 Predicted: "Sneaker" 6.8, Actual: "Sandal" 4.9
+ 6720 Predicted: "Coat" 8.0, Actual: "Pullover" 6.6
+ 6721 Predicted: "T-shirt/top" 7.1, Actual: "Pullover" 5.7
+ 6727 Predicted: "Sneaker" 5.5, Actual: "Sandal" 5.0
+ 6758 Predicted: "Shirt" 9.6, Actual: "T-shirt/top" 8.1
+ 6768 Predicted: "Sneaker" 7.3, Actual: "Sandal" 7.0
+ 6770 Predicted: "Dress" 7.5, Actual: "Shirt" 3.4
+ 6797 Predicted: "Dress" 5.0, Actual: "Shirt" 2.9
+ 6799 Predicted: "Sneaker" 9.7, Actual: "Ankle boot" 9.6
+ 6801 Predicted: "Dress" 4.7, Actual: "Coat" 2.6
+ 6816 Predicted: "Coat" 5.3, Actual: "Pullover" 5.1
+ 6820 Predicted: "Coat" 6.9, Actual: "Pullover" 6.6
+ 6826 Predicted: "T-shirt/top" 8.6, Actual: "Pullover" 8.1
+ 6829 Predicted: "Shirt" 8.9, Actual: "Coat" 8.2
+ 6842 Predicted: "Pullover" 8.7, Actual: "Bag" 6.2
+ 6844 Predicted: "Pullover" 9.1, Actual: "Shirt" 7.2
+ 6855 Predicted: "Pullover" 4.4, Actual: "Coat" 3.4
+ 6859 Predicted: "Pullover" 7.9, Actual: "Coat" 6.9
+ 6861 Predicted: "Dress" 5.7, Actual: "Shirt" 3.4
+ 6868 Predicted: "Ankle boot" 11.0, Actual: "Sneaker" 8.8
+ 6874 Predicted: "T-shirt/top" 4.8, Actual: "Pullover" 1.2
+ 6892 Predicted: "Ankle boot" 12.2, Actual: "Sandal" 10.5
+ 6897 Predicted: "Ankle boot" 4.4, Actual: "Sandal" 0.2
+ 6899 Predicted: "Shirt" 5.5, Actual: "Coat" 4.5
+ 6908 Predicted: "Shirt" 8.3, Actual: "Coat" 7.8
+ 6916 Predicted: "Shirt" 7.9, Actual: "Bag" 7.8
+ 6921 Predicted: "Coat" 11.2, Actual: "Pullover" 8.7
+ 6926 Predicted: "Shirt" 8.4, Actual: "T-shirt/top" 6.2
+ 6927 Predicted: "T-shirt/top" 5.9, Actual: "Dress" 3.7
+ 6938 Predicted: "Coat" 10.7, Actual: "Pullover" 10.4
+ 6942 Predicted: "Shirt" 3.4, Actual: "Pullover" 2.1
+ 6957 Predicted: "T-shirt/top" 7.5, Actual: "Shirt" 7.0
+ 6958 Predicted: "T-shirt/top" 8.6, Actual: "Shirt" 5.2
+ 6961 Predicted: "Sandal" 5.9, Actual: "Sneaker" 5.0
+ 6964 Predicted: "Coat" 8.4, Actual: "Pullover" 8.0
+ 6993 Predicted: "Pullover" 9.0, Actual: "Coat" 8.0
+ 6997 Predicted: "T-shirt/top" 8.5, Actual: "Dress" 6.7
+ 7002 Predicted: "Coat" 5.2, Actual: "Dress" 4.8
+ 7004 Predicted: "Coat" 13.2, Actual: "Shirt" 11.0
+ 7007 Predicted: "Ankle boot" 10.3, Actual: "Sneaker" 10.1
+ 7024 Predicted: "Coat" 9.6, Actual: "Shirt" 9.5
+ 7025 Predicted: "T-shirt/top" 8.8, Actual: "Shirt" 7.9
+ 7026 Predicted: "Sandal" 4.3, Actual: "Shirt" 3.1
+ 7028 Predicted: "Sneaker" 11.4, Actual: "Ankle boot" 10.8
+ 7030 Predicted: "Coat" 9.1, Actual: "Shirt" 8.9
+ 7032 Predicted: "Coat" 9.5, Actual: "Pullover" 8.9
+ 7036 Predicted: "Dress" 8.8, Actual: "Trouser" 7.2
+ 7042 Predicted: "Pullover" 5.7, Actual: "Shirt" 2.6
+ 7047 Predicted: "Sandal" 7.0, Actual: "Ankle boot" 6.9
+ 7049 Predicted: "Coat" 9.8, Actual: "Pullover" 7.2
+ 7068 Predicted: "Pullover" 10.0, Actual: "Coat" 9.4
+ 7069 Predicted: "Dress" 9.8, Actual: "Coat" 8.5
+ 7071 Predicted: "Coat" 10.2, Actual: "Pullover" 8.9
+ 7076 Predicted: "Coat" 10.0, Actual: "Pullover" 9.4
+ 7078 Predicted: "Sneaker" 8.2, Actual: "Ankle boot" 8.1
+ 7095 Predicted: "Pullover" 7.7, Actual: "Shirt" 6.3
+ 7100 Predicted: "Sandal" 7.7, Actual: "Sneaker" 5.6
+ 7103 Predicted: "Dress" 6.1, Actual: "T-shirt/top" 5.9
+ 7112 Predicted: "T-shirt/top" 12.1, Actual: "Shirt" 10.8
+ 7114 Predicted: "Pullover" 10.3, Actual: "Shirt" 8.9
+ 7125 Predicted: "Sneaker" 9.3, Actual: "Ankle boot" 7.1
+ 7130 Predicted: "Bag" 7.7, Actual: "Shirt" 6.7
+ 7136 Predicted: "Shirt" 7.2, Actual: "Pullover" 6.8
+ 7137 Predicted: "Shirt" 5.4, Actual: "T-shirt/top" 5.3
+ 7138 Predicted: "Bag" 9.0, Actual: "Coat" 7.2
+ 7165 Predicted: "Coat" 12.7, Actual: "Pullover" 11.0
+ 7167 Predicted: "Pullover" 8.0, Actual: "Shirt" 7.9
+ 7177 Predicted: "Dress" 11.3, Actual: "Pullover" 8.9
+ 7182 Predicted: "T-shirt/top" 11.3, Actual: "Shirt" 10.3
+ 7188 Predicted: "Coat" 9.1, Actual: "Shirt" 6.8
+ 7189 Predicted: "T-shirt/top" 8.4, Actual: "Shirt" 5.9
+ 7195 Predicted: "T-shirt/top" 13.4, Actual: "Shirt" 10.3
+ 7204 Predicted: "Shirt" 5.2, Actual: "Bag" 4.5
+ 7210 Predicted: "Shirt" 11.1, Actual: "Coat" 8.9
+ 7211 Predicted: "Shirt" 8.5, Actual: "Coat" 7.1
+ 7220 Predicted: "Sneaker" 6.6, Actual: "Sandal" 6.5
+ 7221 Predicted: "Pullover" 9.5, Actual: "Shirt" 6.5
+ 7223 Predicted: "Sandal" 5.0, Actual: "Ankle boot" 4.3
+ 7232 Predicted: "Ankle boot" 10.1, Actual: "Sandal" 10.0
+ 7244 Predicted: "T-shirt/top" 11.5, Actual: "Shirt" 9.4
+ 7258 Predicted: "Coat" 13.4, Actual: "Shirt" 9.8
+ 7262 Predicted: "Coat" 8.4, Actual: "Shirt" 5.3
+ 7267 Predicted: "Pullover" 9.2, Actual: "Dress" 8.1
+ 7278 Predicted: "Shirt" 4.9, Actual: "Coat" 4.1
+ 7281 Predicted: "Shirt" 6.9, Actual: "Bag" 5.6
+ 7282 Predicted: "Pullover" 9.7, Actual: "Coat" 9.7
+ 7288 Predicted: "Coat" 11.7, Actual: "Pullover" 9.9
+ 7296 Predicted: "Coat" 10.5, Actual: "Shirt" 10.2
+ 7299 Predicted: "Coat" 9.8, Actual: "Pullover" 9.1
+ 7303 Predicted: "Pullover" 7.8, Actual: "Shirt" 7.0
+ 7314 Predicted: "Pullover" 8.5, Actual: "Coat" 5.8
+ 7325 Predicted: "Ankle boot" 8.7, Actual: "Sneaker" 7.7
+ 7332 Predicted: "Trouser" 6.4, Actual: "Dress" 6.0
+ 7334 Predicted: "T-shirt/top" 6.3, Actual: "Shirt" 6.0
+ 7335 Predicted: "Ankle boot" 9.9, Actual: "Sandal" 8.7
+ 7336 Predicted: "Coat" 10.1, Actual: "Pullover" 9.6
+ 7342 Predicted: "Pullover" 7.5, Actual: "Dress" 6.6
+ 7343 Predicted: "T-shirt/top" 10.3, Actual: "Shirt" 7.8
+ 7345 Predicted: "Coat" 9.8, Actual: "Shirt" 7.2
+ 7346 Predicted: "Dress" 6.9, Actual: "T-shirt/top" 6.7
+ 7348 Predicted: "Pullover" 5.6, Actual: "Shirt" 4.8
+ 7349 Predicted: "Bag" 8.7, Actual: "Coat" 5.7
+ 7350 Predicted: "Shirt" 8.9, Actual: "Pullover" 8.5
+ 7355 Predicted: "Shirt" 7.6, Actual: "Pullover" 6.7
+ 7369 Predicted: "T-shirt/top" 6.6, Actual: "Pullover" 3.0
+ 7389 Predicted: "Pullover" 6.5, Actual: "Shirt" 6.0
+ 7393 Predicted: "Dress" 9.0, Actual: "T-shirt/top" 6.4
+ 7416 Predicted: "T-shirt/top" 8.0, Actual: "Shirt" 5.3
+ 7425 Predicted: "Dress" 8.8, Actual: "T-shirt/top" 7.6
+ 7442 Predicted: "Coat" 9.9, Actual: "Pullover" 8.0
+ 7450 Predicted: "Pullover" 8.5, Actual: "Coat" 6.3
+ 7452 Predicted: "T-shirt/top" 6.2, Actual: "Pullover" 5.4
+ 7466 Predicted: "Sneaker" 8.0, Actual: "Sandal" 7.7
+ 7473 Predicted: "Trouser" 6.2, Actual: "Coat" 5.7
+ 7495 Predicted: "T-shirt/top" 11.2, Actual: "Shirt" 11.0
+ 7500 Predicted: "Sneaker" 7.8, Actual: "Sandal" 5.6
+ 7509 Predicted: "Ankle boot" 5.6, Actual: "Sandal" 5.4
+ 7525 Predicted: "Ankle boot" 5.5, Actual: "Sneaker" 4.7
+ 7527 Predicted: "Coat" 7.7, Actual: "Shirt" 6.9
+ 7551 Predicted: "Shirt" 8.3, Actual: "Dress" 5.3
+ 7555 Predicted: "Dress" 9.7, Actual: "Trouser" 8.1
+ 7565 Predicted: "T-shirt/top" 4.2, Actual: "Dress" 3.5
+ 7568 Predicted: "Dress" 7.6, Actual: "T-shirt/top" 6.9
+ 7581 Predicted: "T-shirt/top" 3.3, Actual: "Shirt" 3.2
+ 7583 Predicted: "T-shirt/top" 6.8, Actual: "Dress" 4.1
+ 7587 Predicted: "Shirt" 6.5, Actual: "Dress" 5.3
+ 7599 Predicted: "Shirt" 12.0, Actual: "T-shirt/top" 11.4
+ 7604 Predicted: "Shirt" 6.7, Actual: "Pullover" 6.3
+ 7613 Predicted: "Pullover" 6.3, Actual: "Shirt" 6.0
+ 7635 Predicted: "Pullover" 5.8, Actual: "Dress" 3.8
+ 7638 Predicted: "Pullover" 4.9, Actual: "Dress" 3.6
+ 7640 Predicted: "Shirt" 5.4, Actual: "Pullover" 5.3
+ 7646 Predicted: "Coat" 5.9, Actual: "Dress" 3.4
+ 7647 Predicted: "Shirt" 5.4, Actual: "Pullover" 4.6
+ 7654 Predicted: "Coat" 10.6, Actual: "Shirt" 10.3
+ 7660 Predicted: "T-shirt/top" 9.7, Actual: "Shirt" 7.8
+ 7664 Predicted: "Sandal" 8.0, Actual: "Sneaker" 6.5
+ 7673 Predicted: "Ankle boot" 10.9, Actual: "Sneaker" 9.3
+ 7679 Predicted: "Coat" 7.9, Actual: "Dress" 6.8
+ 7680 Predicted: "Trouser" 4.4, Actual: "T-shirt/top" 4.3
+ 7682 Predicted: "Sandal" 7.2, Actual: "Sneaker" 5.6
+ 7683 Predicted: "Pullover" 9.8, Actual: "Coat" 9.3
+ 7709 Predicted: "Pullover" 9.1, Actual: "Coat" 8.2
+ 7711 Predicted: "Coat" 10.4, Actual: "Shirt" 10.0
+ 7719 Predicted: "T-shirt/top" 8.2, Actual: "Shirt" 5.7
+ 7721 Predicted: "Bag" 5.7, Actual: "Pullover" 3.5
+ 7723 Predicted: "Pullover" 10.1, Actual: "Coat" 9.8
+ 7734 Predicted: "Ankle boot" 13.0, Actual: "Sandal" 11.3
+ 7746 Predicted: "Shirt" 7.1, Actual: "Dress" 6.5
+ 7752 Predicted: "Shirt" 5.5, Actual: "Coat" 5.4
+ 7755 Predicted: "Ankle boot" 10.8, Actual: "Sneaker" 10.6
+ 7778 Predicted: "T-shirt/top" 14.6, Actual: "Shirt" 10.9
+ 7779 Predicted: "Sneaker" 5.4, Actual: "Sandal" 5.4
+ 7793 Predicted: "Pullover" 9.3, Actual: "Shirt" 9.2
+ 7798 Predicted: "Sneaker" 4.6, Actual: "Sandal" 2.9
+ 7800 Predicted: "T-shirt/top" 4.6, Actual: "Shirt" 3.5
+ 7812 Predicted: "Coat" 9.3, Actual: "Shirt" 8.6
+ 7813 Predicted: "Sandal" 6.1, Actual: "Sneaker" 5.6
+ 7815 Predicted: "Sandal" 8.6, Actual: "Sneaker" 7.0
+ 7816 Predicted: "Shirt" 10.0, Actual: "Coat" 10.0
+ 7818 Predicted: "Pullover" 10.0, Actual: "T-shirt/top" 9.5
+ 7822 Predicted: "Dress" 7.4, Actual: "T-shirt/top" 7.3
+ 7823 Predicted: "T-shirt/top" 5.9, Actual: "Dress" 5.5
+ 7829 Predicted: "T-shirt/top" 12.8, Actual: "Shirt" 10.3
+ 7831 Predicted: "Shirt" 7.0, Actual: "T-shirt/top" 6.2
+ 7837 Predicted: "Dress" 7.0, Actual: "Trouser" 6.6
+ 7842 Predicted: "Pullover" 9.2, Actual: "Shirt" 8.8
+ 7843 Predicted: "T-shirt/top" 6.8, Actual: "Shirt" 5.6
+ 7851 Predicted: "Dress" 6.7, Actual: "Shirt" 5.4
+ 7853 Predicted: "Coat" 9.3, Actual: "Pullover" 9.2
+ 7863 Predicted: "T-shirt/top" 5.3, Actual: "Shirt" 2.7
+ 7876 Predicted: "Coat" 13.0, Actual: "Trouser" 7.7
+ 7878 Predicted: "Ankle boot" 9.5, Actual: "Sandal" 8.1
+ 7884 Predicted: "Coat" 9.9, Actual: "Pullover" 8.8
+ 7899 Predicted: "Bag" 8.6, Actual: "T-shirt/top" 3.6
+ 7906 Predicted: "Coat" 9.7, Actual: "Shirt" 9.0
+ 7910 Predicted: "T-shirt/top" 7.9, Actual: "Shirt" 7.4
+ 7914 Predicted: "Dress" 8.2, Actual: "Coat" 8.0
+ 7915 Predicted: "Dress" 10.3, Actual: "Coat" 8.0
+ 7921 Predicted: "Pullover" 7.4, Actual: "Trouser" 6.4
+ 7924 Predicted: "T-shirt/top" 11.6, Actual: "Shirt" 8.3
+ 7936 Predicted: "Sneaker" 11.4, Actual: "Ankle boot" 7.4
+ 7937 Predicted: "Ankle boot" 5.9, Actual: "Sandal" 4.8
+ 7948 Predicted: "Coat" 7.2, Actual: "Dress" 4.0
+ 7952 Predicted: "Bag" 5.8, Actual: "Coat" 5.6
+ 7958 Predicted: "Coat" 11.2, Actual: "Pullover" 10.5
+ 7959 Predicted: "T-shirt/top" 9.5, Actual: "Shirt" 7.3
+ 7971 Predicted: "Pullover" 5.9, Actual: "Shirt" 4.3
+ 7976 Predicted: "Shirt" 8.4, Actual: "Pullover" 7.7
+ 7981 Predicted: "Dress" 9.4, Actual: "T-shirt/top" 8.6
+ 7986 Predicted: "Shirt" 5.7, Actual: "Coat" 4.8
+ 7992 Predicted: "Coat" 10.2, Actual: "Shirt" 7.2
+ 7998 Predicted: "T-shirt/top" 10.1, Actual: "Pullover" 8.3
+ 8001 Predicted: "Shirt" 6.4, Actual: "Pullover" 5.5
+ 8005 Predicted: "Coat" 9.4, Actual: "Shirt" 6.3
+ 8006 Predicted: "Coat" 11.7, Actual: "Pullover" 9.8
+ 8007 Predicted: "Shirt" 5.3, Actual: "T-shirt/top" 4.7
+ 8009 Predicted: "Coat" 8.7, Actual: "Pullover" 7.1
+ 8017 Predicted: "Ankle boot" 11.8, Actual: "Sneaker" 10.7
+ 8024 Predicted: "Coat" 9.6, Actual: "Pullover" 9.0
+ 8031 Predicted: "Shirt" 9.6, Actual: "T-shirt/top" 8.1
+ 8033 Predicted: "T-shirt/top" 7.0, Actual: "Shirt" 5.9
+ 8035 Predicted: "Pullover" 10.1, Actual: "Shirt" 9.2
+ 8038 Predicted: "Shirt" 6.1, Actual: "Pullover" 5.4
+ 8039 Predicted: "Dress" 5.8, Actual: "Coat" 5.0
+ 8054 Predicted: "Shirt" 8.7, Actual: "Dress" 6.1
+ 8059 Predicted: "Pullover" 4.1, Actual: "T-shirt/top" 3.3
+ 8065 Predicted: "Coat" 8.6, Actual: "Pullover" 7.8
+ 8066 Predicted: "Shirt" 9.2, Actual: "Coat" 8.7
+ 8069 Predicted: "Bag" 6.0, Actual: "Shirt" 5.9
+ 8074 Predicted: "Dress" 6.3, Actual: "Trouser" 4.7
+ 8080 Predicted: "Shirt" 8.5, Actual: "Coat" 7.0
+ 8082 Predicted: "Coat" 9.2, Actual: "Shirt" 9.0
+ 8085 Predicted: "Pullover" 10.4, Actual: "Coat" 10.2
+ 8086 Predicted: "Ankle boot" 6.3, Actual: "Sandal" 2.6
+ 8090 Predicted: "Pullover" 11.2, Actual: "Coat" 11.0
+ 8091 Predicted: "Shirt" 9.2, Actual: "T-shirt/top" 9.0
+ 8106 Predicted: "Coat" 9.3, Actual: "Shirt" 7.8
+ 8111 Predicted: "Shirt" 5.6, Actual: "Dress" 4.2
+ 8114 Predicted: "Coat" 6.2, Actual: "Pullover" 6.2
+ 8121 Predicted: "Shirt" 6.5, Actual: "Coat" 5.7
+ 8130 Predicted: "Sandal" 7.3, Actual: "Sneaker" 6.5
+ 8132 Predicted: "Pullover" 6.9, Actual: "Shirt" 4.9
+ 8140 Predicted: "Pullover" 4.9, Actual: "Coat" 3.0
+ 8150 Predicted: "Bag" 9.9, Actual: "Shirt" 7.5
+ 8154 Predicted: "Pullover" 8.3, Actual: "Coat" 5.8
+ 8156 Predicted: "Bag" 6.0, Actual: "Trouser" 0.1
+ 8162 Predicted: "T-shirt/top" 9.4, Actual: "Shirt" 9.2
+ 8179 Predicted: "Bag" 5.5, Actual: "Shirt" 4.7
+ 8191 Predicted: "Coat" 5.8, Actual: "Pullover" 5.5
+ 8202 Predicted: "Coat" 9.2, Actual: "Shirt" 7.1
+ 8204 Predicted: "Shirt" 7.1, Actual: "Dress" 6.2
+ 8205 Predicted: "Sneaker" 9.5, Actual: "Ankle boot" 7.6
+ 8211 Predicted: "Bag" 6.2, Actual: "Shirt" 3.7
+ 8217 Predicted: "Coat" 10.6, Actual: "Shirt" 9.0
+ 8237 Predicted: "T-shirt/top" 12.1, Actual: "Shirt" 8.3
+ 8259 Predicted: "T-shirt/top" 10.2, Actual: "Dress" 6.7
+ 8260 Predicted: "Coat" 12.3, Actual: "Shirt" 10.3
+ 8266 Predicted: "Dress" 8.0, Actual: "T-shirt/top" 7.7
+ 8275 Predicted: "Pullover" 7.0, Actual: "Shirt" 6.0
+ 8287 Predicted: "Shirt" 8.9, Actual: "Bag" 8.3
+ 8288 Predicted: "Coat" 11.1, Actual: "Shirt" 10.2
+ 8290 Predicted: "Coat" 8.5, Actual: "Pullover" 7.3
+ 8292 Predicted: "Sneaker" 8.8, Actual: "Sandal" 6.9
+ 8293 Predicted: "Pullover" 10.1, Actual: "Shirt" 9.1
+ 8300 Predicted: "Shirt" 9.8, Actual: "Coat" 9.3
+ 8306 Predicted: "Dress" 5.0, Actual: "Shirt" 3.8
+ 8317 Predicted: "Dress" 8.3, Actual: "T-shirt/top" 7.5
+ 8324 Predicted: "Dress" 9.8, Actual: "T-shirt/top" 6.2
+ 8341 Predicted: "Pullover" 6.2, Actual: "Dress" 5.4
+ 8348 Predicted: "Shirt" 11.7, Actual: "T-shirt/top" 9.3
+ 8353 Predicted: "Dress" 7.0, Actual: "Shirt" 6.3
+ 8373 Predicted: "Pullover" 7.4, Actual: "Shirt" 4.5
+ 8374 Predicted: "Coat" 10.8, Actual: "Shirt" 9.5
+ 8375 Predicted: "Dress" 8.1, Actual: "T-shirt/top" 6.8
+ 8406 Predicted: "Shirt" 10.1, Actual: "Coat" 6.4
+ 8414 Predicted: "Shirt" 3.8, Actual: "Pullover" 3.4
+ 8417 Predicted: "Coat" 7.2, Actual: "Pullover" 7.0
+ 8419 Predicted: "Sneaker" 7.5, Actual: "Sandal" 7.3
+ 8425 Predicted: "Shirt" 7.2, Actual: "T-shirt/top" 7.1
+ 8429 Predicted: "T-shirt/top" 7.2, Actual: "Shirt" 6.3
+ 8436 Predicted: "Coat" 11.4, Actual: "Pullover" 9.1
+ 8438 Predicted: "Coat" 9.5, Actual: "Shirt" 9.2
+ 8454 Predicted: "Shirt" 9.1, Actual: "T-shirt/top" 6.7
+ 8457 Predicted: "Shirt" 10.7, Actual: "Coat" 9.4
+ 8462 Predicted: "Shirt" 8.2, Actual: "Coat" 7.1
+ 8463 Predicted: "Sneaker" 7.0, Actual: "Sandal" 4.9
+ 8465 Predicted: "Shirt" 7.6, Actual: "Pullover" 6.9
+ 8469 Predicted: "Coat" 7.1, Actual: "Dress" 6.8
+ 8471 Predicted: "Dress" 8.6, Actual: "T-shirt/top" 6.8
+ 8476 Predicted: "Pullover" 9.8, Actual: "Coat" 9.3
+ 8483 Predicted: "Ankle boot" 10.8, Actual: "Sneaker" 10.3
+ 8485 Predicted: "Pullover" 8.4, Actual: "Coat" 7.5
+ 8490 Predicted: "Coat" 7.7, Actual: "Shirt" 7.1
+ 8505 Predicted: "Ankle boot" 12.8, Actual: "Sneaker" 10.0
+ 8512 Predicted: "Shirt" 10.5, Actual: "Coat" 8.1
+ 8519 Predicted: "Pullover" 5.5, Actual: "Shirt" 3.8
+ 8525 Predicted: "Sneaker" 11.0, Actual: "Ankle boot" 8.1
+ 8536 Predicted: "Pullover" 10.7, Actual: "Coat" 10.1
+ 8538 Predicted: "T-shirt/top" 9.5, Actual: "Shirt" 7.9
+ 8540 Predicted: "Coat" 9.9, Actual: "Pullover" 9.6
+ 8556 Predicted: "Dress" 9.4, Actual: "Coat" 7.8
+ 8557 Predicted: "Sandal" 9.7, Actual: "Ankle boot" 7.2
+ 8560 Predicted: "Coat" 10.3, Actual: "Pullover" 9.9
+ 8567 Predicted: "Bag" 8.4, Actual: "Shirt" 6.8
+ 8568 Predicted: "Shirt" 8.0, Actual: "Bag" 6.0
+ 8580 Predicted: "Pullover" 10.2, Actual: "Coat" 6.6
+ 8591 Predicted: "T-shirt/top" 5.9, Actual: "Dress" 4.8
+ 8598 Predicted: "T-shirt/top" 12.1, Actual: "Pullover" 9.4
+ 8607 Predicted: "Sneaker" 10.9, Actual: "Ankle boot" 7.7
+ 8610 Predicted: "T-shirt/top" 4.6, Actual: "Trouser" 2.9
+ 8617 Predicted: "T-shirt/top" 8.7, Actual: "Shirt" 4.0
+ 8618 Predicted: "Bag" 3.9, Actual: "Pullover" 3.3
+ 8621 Predicted: "Pullover" 7.2, Actual: "Coat" 7.0
+ 8624 Predicted: "T-shirt/top" 4.2, Actual: "Pullover" 3.7
+ 8634 Predicted: "Dress" 7.2, Actual: "T-shirt/top" 6.8
+ 8658 Predicted: "Dress" 6.5, Actual: "Shirt" 4.8
+ 8664 Predicted: "Dress" 8.2, Actual: "Shirt" 4.3
+ 8669 Predicted: "T-shirt/top" 6.7, Actual: "Pullover" 3.2
+ 8678 Predicted: "Pullover" 5.7, Actual: "Coat" 5.5
+ 8683 Predicted: "Sneaker" 8.8, Actual: "Sandal" 8.2
+ 8695 Predicted: "Shirt" 10.6, Actual: "T-shirt/top" 10.5
+ 8706 Predicted: "Pullover" 10.5, Actual: "Shirt" 10.2
+ 8708 Predicted: "Coat" 4.2, Actual: "Dress" 3.9
+ 8710 Predicted: "Coat" 9.4, Actual: "Pullover" 8.0
+ 8714 Predicted: "Sandal" 6.8, Actual: "Sneaker" 6.5
+ 8715 Predicted: "Dress" 7.2, Actual: "T-shirt/top" 6.3
+ 8717 Predicted: "Shirt" 5.8, Actual: "T-shirt/top" 4.7
+ 8718 Predicted: "Coat" 10.7, Actual: "Pullover" 8.9
+ 8728 Predicted: "T-shirt/top" 11.4, Actual: "Shirt" 10.2
+ 8745 Predicted: "T-shirt/top" 11.0, Actual: "Shirt" 8.5
+ 8748 Predicted: "T-shirt/top" 12.4, Actual: "Shirt" 12.0
+ 8749 Predicted: "Coat" 6.8, Actual: "Shirt" 5.9
+ 8754 Predicted: "Ankle boot" 12.8, Actual: "Sneaker" 11.0
+ 8757 Predicted: "T-shirt/top" 5.8, Actual: "Trouser" 2.7
+ 8758 Predicted: "Coat" 11.5, Actual: "Pullover" 9.0
+ 8762 Predicted: "Dress" 9.6, Actual: "Shirt" 8.0
+ 8763 Predicted: "Bag" 12.5, Actual: "T-shirt/top" 7.0
+ 8764 Predicted: "Shirt" 4.9, Actual: "Dress" 3.0
+ 8768 Predicted: "Coat" 8.2, Actual: "Trouser" 6.6
+ 8772 Predicted: "Ankle boot" 11.4, Actual: "Sandal" 8.6
+ 8774 Predicted: "Shirt" 6.4, Actual: "Pullover" 5.9
+ 8777 Predicted: "Bag" 6.5, Actual: "Sandal" 6.3
+ 8784 Predicted: "Coat" 10.7, Actual: "Shirt" 5.9
+ 8787 Predicted: "Pullover" 5.4, Actual: "Shirt" 5.2
+ 8801 Predicted: "Shirt" 8.4, Actual: "Coat" 7.6
+ 8806 Predicted: "T-shirt/top" 8.9, Actual: "Dress" 8.6
+ 8814 Predicted: "Shirt" 6.1, Actual: "Coat" 4.6
+ 8827 Predicted: "Dress" 5.7, Actual: "Coat" 3.1
+ 8832 Predicted: "Bag" 6.2, Actual: "T-shirt/top" 4.4
+ 8834 Predicted: "Pullover" 4.9, Actual: "T-shirt/top" 4.4
+ 8855 Predicted: "Pullover" 8.6, Actual: "Shirt" 7.4
+ 8858 Predicted: "Shirt" 10.6, Actual: "Coat" 9.0
+ 8865 Predicted: "Ankle boot" 11.3, Actual: "Sneaker" 10.7
+ 8866 Predicted: "Pullover" 6.0, Actual: "Dress" 5.4
+ 8869 Predicted: "Pullover" 10.2, Actual: "Shirt" 8.9
+ 8877 Predicted: "T-shirt/top" 8.9, Actual: "Pullover" 7.5
+ 8878 Predicted: "Dress" 5.8, Actual: "Shirt" 5.8
+ 8879 Predicted: "Shirt" 5.5, Actual: "Pullover" 4.4
+ 8887 Predicted: "Ankle boot" 12.1, Actual: "Sandal" 9.9
+ 8895 Predicted: "Coat" 9.0, Actual: "Pullover" 8.6
+ 8900 Predicted: "Dress" 9.0, Actual: "Trouser" 8.7
+ 8906 Predicted: "T-shirt/top" 12.8, Actual: "Shirt" 11.7
+ 8910 Predicted: "Ankle boot" 5.5, Actual: "Sandal" 5.5
+ 8914 Predicted: "T-shirt/top" 8.6, Actual: "Pullover" 5.1
+ 8915 Predicted: "Shirt" 9.4, Actual: "Pullover" 8.4
+ 8919 Predicted: "Pullover" 8.7, Actual: "T-shirt/top" 5.3
+ 8933 Predicted: "Dress" 4.6, Actual: "Coat" 2.7
+ 8939 Predicted: "T-shirt/top" 3.8, Actual: "Shirt" 3.2
+ 8940 Predicted: "Coat" 8.4, Actual: "Shirt" 7.6
+ 8946 Predicted: "Coat" 9.3, Actual: "Shirt" 9.1
+ 8949 Predicted: "Pullover" 6.2, Actual: "T-shirt/top" 5.8
+ 8950 Predicted: "Shirt" 6.5, Actual: "Pullover" 5.6
+ 8952 Predicted: "Sneaker" 10.3, Actual: "Ankle boot" 9.3
+ 8958 Predicted: "Pullover" 10.0, Actual: "Coat" 5.5
+ 8962 Predicted: "Pullover" 7.0, Actual: "Coat" 6.9
+ 8969 Predicted: "Pullover" 5.4, Actual: "Coat" 5.1
+ 8972 Predicted: "Ankle boot" 10.9, Actual: "Sneaker" 10.4
+ 8985 Predicted: "Ankle boot" 10.5, Actual: "Sneaker" 10.5
+ 8989 Predicted: "Coat" 5.9, Actual: "Dress" 5.1
+ 8991 Predicted: "Sneaker" 9.0, Actual: "Sandal" 8.9
+ 8997 Predicted: "T-shirt/top" 10.3, Actual: "Shirt" 8.6
+ 8999 Predicted: "Shirt" 12.0, Actual: "T-shirt/top" 10.6
+ 9017 Predicted: "Dress" 6.7, Actual: "T-shirt/top" 3.4
+ 9022 Predicted: "Shirt" 7.9, Actual: "Bag" 7.9
+ 9025 Predicted: "Coat" 10.1, Actual: "Shirt" 9.1
+ 9027 Predicted: "Coat" 9.3, Actual: "Pullover" 9.0
+ 9032 Predicted: "Pullover" 7.1, Actual: "Shirt" 4.3
+ 9033 Predicted: "Coat" 9.9, Actual: "Shirt" 8.5
+ 9055 Predicted: "Shirt" 4.6, Actual: "Bag" 4.6
+ 9057 Predicted: "Pullover" 7.1, Actual: "Shirt" 6.3
+ 9059 Predicted: "Trouser" 4.7, Actual: "Dress" 1.8
+ 9062 Predicted: "Pullover" 11.1, Actual: "Coat" 10.9
+ 9064 Predicted: "Dress" 6.7, Actual: "T-shirt/top" 6.2
+ 9067 Predicted: "Shirt" 7.4, Actual: "Pullover" 6.7
+ 9069 Predicted: "Pullover" 4.0, Actual: "Shirt" 3.9
+ 9071 Predicted: "Coat" 7.7, Actual: "Trouser" 5.6
+ 9073 Predicted: "Sneaker" 5.5, Actual: "Sandal" 4.8
+ 9091 Predicted: "Dress" 4.6, Actual: "Shirt" 2.5
+ 9094 Predicted: "T-shirt/top" 9.5, Actual: "Shirt" 8.8
+ 9095 Predicted: "Dress" 5.5, Actual: "Trouser" 5.0
+ 9114 Predicted: "Shirt" 5.5, Actual: "T-shirt/top" 3.9
+ 9122 Predicted: "T-shirt/top" 15.0, Actual: "Shirt" 11.8
+ 9126 Predicted: "Sneaker" 8.6, Actual: "Sandal" 7.9
+ 9133 Predicted: "T-shirt/top" 15.1, Actual: "Shirt" 10.7
+ 9138 Predicted: "Coat" 11.3, Actual: "Pullover" 10.9
+ 9152 Predicted: "Ankle boot" 9.8, Actual: "Sneaker" 9.0
+ 9154 Predicted: "Shirt" 7.7, Actual: "Pullover" 7.2
+ 9165 Predicted: "T-shirt/top" 10.4, Actual: "Dress" 7.1
+ 9177 Predicted: "Bag" 8.2, Actual: "Coat" 6.6
+ 9180 Predicted: "T-shirt/top" 11.9, Actual: "Shirt" 11.3
+ 9183 Predicted: "Bag" 8.8, Actual: "Shirt" 4.1
+ 9193 Predicted: "Sandal" 6.4, Actual: "Ankle boot" 5.6
+ 9204 Predicted: "Dress" 6.4, Actual: "Shirt" 5.0
+ 9211 Predicted: "Dress" 9.9, Actual: "Shirt" 7.5
+ 9222 Predicted: "T-shirt/top" 9.4, Actual: "Shirt" 8.7
+ 9225 Predicted: "T-shirt/top" 6.9, Actual: "Dress" 6.1
+ 9227 Predicted: "Bag" 4.5, Actual: "Shirt" 2.8
+ 9237 Predicted: "Pullover" 4.9, Actual: "T-shirt/top" 4.1
+ 9251 Predicted: "Shirt" 9.8, Actual: "T-shirt/top" 7.3
+ 9255 Predicted: "Bag" 4.6, Actual: "Sandal" 4.5
+ 9256 Predicted: "Shirt" 5.4, Actual: "Pullover" 3.2
+ 9261 Predicted: "T-shirt/top" 8.5, Actual: "Shirt" 8.3
+ 9273 Predicted: "Ankle boot" 9.8, Actual: "Sandal" 8.7
+ 9276 Predicted: "Bag" 8.8, Actual: "Pullover" 5.3
+ 9277 Predicted: "Coat" 8.1, Actual: "Shirt" 8.0
+ 9280 Predicted: "Coat" 9.9, Actual: "Shirt" 8.5
+ 9292 Predicted: "Pullover" 10.4, Actual: "Coat" 10.1
+ 9297 Predicted: "T-shirt/top" 8.1, Actual: "Shirt" 6.1
+ 9306 Predicted: "Dress" 8.8, Actual: "Shirt" 7.8
+ 9308 Predicted: "Bag" 7.9, Actual: "Pullover" 6.4
+ 9325 Predicted: "Shirt" 5.0, Actual: "Dress" 4.2
+ 9337 Predicted: "Coat" 11.1, Actual: "Pullover" 9.9
+ 9344 Predicted: "Pullover" 8.5, Actual: "Coat" 6.2
+ 9345 Predicted: "Trouser" 10.2, Actual: "Coat" 9.9
+ 9347 Predicted: "Sandal" 5.9, Actual: "Sneaker" 5.7
+ 9348 Predicted: "Pullover" 9.8, Actual: "Coat" 9.0
+ 9349 Predicted: "Shirt" 7.0, Actual: "T-shirt/top" 5.2
+ 9350 Predicted: "Dress" 8.4, Actual: "Shirt" 7.7
+ 9351 Predicted: "T-shirt/top" 9.7, Actual: "Shirt" 9.2
+ 9358 Predicted: "Sneaker" 9.0, Actual: "Ankle boot" 9.0
+ 9362 Predicted: "Shirt" 10.2, Actual: "Pullover" 8.4
+ 9364 Predicted: "Pullover" 6.9, Actual: "Shirt" 4.9
+ 9366 Predicted: "Dress" 5.8, Actual: "Coat" 5.6
+ 9373 Predicted: "Sneaker" 10.3, Actual: "Sandal" 8.1
+ 9375 Predicted: "Sneaker" 6.9, Actual: "Sandal" 6.3
+ 9379 Predicted: "Coat" 5.4, Actual: "Dress" 3.6
+ 9387 Predicted: "Coat" 8.2, Actual: "Pullover" 8.1
+ 9398 Predicted: "Shirt" 8.6, Actual: "T-shirt/top" 7.0
+ 9402 Predicted: "Pullover" 10.2, Actual: "Shirt" 10.1
+ 9416 Predicted: "T-shirt/top" 4.8, Actual: "Shirt" 4.0
+ 9443 Predicted: "Shirt" 6.3, Actual: "Pullover" 5.3
+ 9445 Predicted: "Coat" 11.0, Actual: "Shirt" 9.4
+ 9449 Predicted: "Coat" 8.5, Actual: "Pullover" 7.1
+ 9450 Predicted: "Shirt" 4.5, Actual: "Trouser" 1.2
+ 9453 Predicted: "Pullover" 2.9, Actual: "Bag" 2.8
+ 9455 Predicted: "T-shirt/top" 5.2, Actual: "Shirt" 5.0
+ 9460 Predicted: "Sandal" 9.6, Actual: "Ankle boot" 9.0
+ 9475 Predicted: "Coat" 7.9, Actual: "Pullover" 6.8
+ 9480 Predicted: "Trouser" 6.9, Actual: "Pullover" 5.2
+ 9483 Predicted: "Pullover" 5.3, Actual: "Shirt" 4.9
+ 9484 Predicted: "Pullover" 9.4, Actual: "Shirt" 7.6
+ 9485 Predicted: "Coat" 6.9, Actual: "Trouser" 3.4
+ 9487 Predicted: "Coat" 7.9, Actual: "Shirt" 5.0
+ 9495 Predicted: "Coat" 9.0, Actual: "Shirt" 7.8
+ 9496 Predicted: "Shirt" 10.8, Actual: "Coat" 10.1
+ 9499 Predicted: "Pullover" 6.1, Actual: "Shirt" 4.3
+ 9502 Predicted: "Dress" 8.5, Actual: "T-shirt/top" 6.3
+ 9503 Predicted: "Coat" 6.2, Actual: "Pullover" 5.1
+ 9504 Predicted: "Ankle boot" 11.1, Actual: "Sneaker" 10.6
+ 9512 Predicted: "T-shirt/top" 4.6, Actual: "Shirt" 4.5
+ 9513 Predicted: "Coat" 8.1, Actual: "Shirt" 8.0
+ 9524 Predicted: "Sandal" 7.7, Actual: "Bag" 3.5
+ 9531 Predicted: "Shirt" 4.7, Actual: "Pullover" 4.3
+ 9537 Predicted: "Coat" 8.0, Actual: "Pullover" 4.8
+ 9545 Predicted: "Coat" 8.6, Actual: "Pullover" 8.0
+ 9546 Predicted: "Coat" 11.2, Actual: "Shirt" 10.9
+ 9548 Predicted: "Pullover" 5.5, Actual: "Trouser" 5.2
+ 9552 Predicted: "Sandal" 4.7, Actual: "Sneaker" 3.5
+ 9554 Predicted: "Shirt" 7.6, Actual: "Dress" 6.8
+ 9573 Predicted: "Dress" 8.5, Actual: "Shirt" 3.6
+ 9574 Predicted: "Shirt" 12.3, Actual: "Pullover" 9.3
+ 9577 Predicted: "Shirt" 11.6, Actual: "T-shirt/top" 9.0
+ 9580 Predicted: "T-shirt/top" 8.1, Actual: "Shirt" 7.6
+ 9582 Predicted: "Coat" 12.4, Actual: "Pullover" 8.6
+ 9590 Predicted: "Pullover" 6.2, Actual: "Bag" 5.6
+ 9601 Predicted: "T-shirt/top" 7.1, Actual: "Shirt" 5.3
+ 9602 Predicted: "T-shirt/top" 10.8, Actual: "Shirt" 8.7
+ 9604 Predicted: "Shirt" 8.9, Actual: "Pullover" 8.1
+ 9614 Predicted: "Sneaker" 11.8, Actual: "Ankle boot" 11.2
+ 9627 Predicted: "Pullover" 4.8, Actual: "Shirt" 1.8
+ 9632 Predicted: "Pullover" 7.9, Actual: "Coat" 7.6
+ 9644 Predicted: "T-shirt/top" 10.7, Actual: "Shirt" 9.9
+ 9662 Predicted: "Shirt" 8.0, Actual: "T-shirt/top" 5.0
+ 9663 Predicted: "T-shirt/top" 13.4, Actual: "Shirt" 13.0
+ 9666 Predicted: "Dress" 7.1, Actual: "Trouser" 1.0
+ 9684 Predicted: "Coat" 9.9, Actual: "Shirt" 7.5
+ 9687 Predicted: "Pullover" 4.7, Actual: "Shirt" 2.2
+ 9690 Predicted: "Pullover" 4.9, Actual: "Shirt" 1.6
+ 9692 Predicted: "T-shirt/top" 9.8, Actual: "Shirt" 9.3
+ 9706 Predicted: "Coat" 8.0, Actual: "Pullover" 7.1
+ 9714 Predicted: "T-shirt/top" 7.1, Actual: "Shirt" 7.1
+ 9719 Predicted: "Dress" 8.3, Actual: "T-shirt/top" 4.7
+ 9724 Predicted: "Dress" 7.4, Actual: "Coat" 7.2
+ 9729 Predicted: "T-shirt/top" 7.7, Actual: "Shirt" 7.1
+ 9743 Predicted: "Coat" 10.9, Actual: "Pullover" 10.4
+ 9748 Predicted: "Coat" 8.0, Actual: "T-shirt/top" 6.1
+ 9791 Predicted: "Bag" 7.0, Actual: "T-shirt/top" 4.7
+ 9795 Predicted: "Shirt" 7.4, Actual: "Dress" 7.3
+ 9804 Predicted: "Sandal" 6.0, Actual: "Sneaker" 3.6
+ 9809 Predicted: "Dress" 8.3, Actual: "T-shirt/top" 6.4
+ 9831 Predicted: "T-shirt/top" 10.9, Actual: "Shirt" 10.8
+ 9835 Predicted: "Sneaker" 12.2, Actual: "Ankle boot" 11.6
+ 9852 Predicted: "Shirt" 4.4, Actual: "Pullover" 4.2
+ 9856 Predicted: "T-shirt/top" 7.4, Actual: "Bag" 3.4
+ 9859 Predicted: "Sandal" 2.4, Actual: "Shirt" 1.4
+ 9865 Predicted: "Sneaker" 7.9, Actual: "Sandal" 7.7
+ 9867 Predicted: "Dress" 8.1, Actual: "T-shirt/top" 7.2
+ 9868 Predicted: "Pullover" 8.4, Actual: "Shirt" 7.9
+ 9880 Predicted: "Dress" 5.2, Actual: "T-shirt/top" 2.5
+ 9902 Predicted: "Shirt" 10.4, Actual: "T-shirt/top" 10.0
+ 9904 Predicted: "Coat" 6.5, Actual: "Shirt" 4.9
+ 9916 Predicted: "Shirt" 6.1, Actual: "Trouser" 4.9
+ 9917 Predicted: "Ankle boot" 9.5, Actual: "Sneaker" 8.6
+ 9922 Predicted: "Ankle boot" 10.4, Actual: "Sandal" 9.5
+ 9928 Predicted: "Bag" 9.4, Actual: "T-shirt/top" 5.8
+ 9934 Predicted: "Shirt" 9.5, Actual: "Coat" 9.5
+ 9946 Predicted: "Bag" 5.9, Actual: "Pullover" 3.8
+ 9947 Predicted: "Pullover" 12.5, Actual: "Shirt" 8.7
+ 9949 Predicted: "Sneaker" 9.8, Actual: "Sandal" 6.8
+ 9953 Predicted: "Pullover" 11.4, Actual: "Shirt" 9.5
+ 9955 Predicted: "T-shirt/top" 9.7, Actual: "Shirt" 7.9
+ 9957 Predicted: "T-shirt/top" 12.1, Actual: "Shirt" 10.2
+ 9961 Predicted: "Pullover" 9.9, Actual: "Shirt" 6.6
+ 9963 Predicted: "Shirt" 5.4, Actual: "Coat" 4.6
+ 9972 Predicted: "T-shirt/top" 8.9, Actual: "Pullover" 7.1
+ 9977 Predicted: "T-shirt/top" 7.5, Actual: "Shirt" 5.4
+ 9979 Predicted: "T-shirt/top" 9.7, Actual: "Shirt" 7.3
+ 9985 Predicted: "Trouser" 5.2, Actual: "Pullover" 3.1

@@ -7,6 +7,7 @@ import torch.nn.functional as F
 from torchvision import datasets
 from torchvision.transforms import ToTensor
 from torch.nn.modules import Module
+import numpy as np
 import os.path
 
 # Press Shift+F10 to execute it or replace it with your code.
@@ -150,6 +151,10 @@ def read_and_run(fname,test_data,device):
     classes = test_data.classes
     print(classes)
 
+    h_cat_matched = []
+    h_cat_missed  = []
+    h_val_matched = []
+    h_val_missed  = []
     for i in range(test_data.data.size(dim=0)):
         x, y = test_data[i][0], test_data[i][1]
         mkimage(i,x[0,].numpy(),"test",y)
@@ -158,8 +163,31 @@ def read_and_run(fname,test_data,device):
             predicted, actual = int(pred[0].argmax(0)), y
             if predicted == actual:
                 print(f'{i:5d} Matched:   "{classes[predicted]}" {pred[0,predicted]:3.1f}')
+                h_cat_matched.append(predicted)
+                h_val_matched.append(pred[0,predicted].item())
             else:
                 print(f'{i:5d} Predicted: "{classes[predicted]}" {pred[0,predicted]:3.1f}, Actual: "{classes[actual]}" {pred[0,actual]:3.1f}')
+                h_cat_missed.append(predicted)
+                h_val_missed.append(pred[0,predicted].item())
+    np.set_printoptions(precision=1)
+    print('Category Guess Histogram')
+    print('Matched')
+    hist, bins = np.histogram(h_cat_matched)
+    print(hist)
+    print(bins)
+    print('Missed')
+    hist, bins = np.histogram(h_cat_missed)
+    print(hist)
+    print(bins)
+    print('Value Guess Histogram')
+    print('Matched')
+    hist, bins = np.histogram(h_val_matched,range(0,22,2))
+    print(hist)
+    print(bins)
+    print('Missed')
+    hist, bins = np.histogram(h_val_missed,range(0,22,2))
+    print(hist)
+    print(bins)
 
 
 def mkimage(i,bmp,prefix,suffix):
