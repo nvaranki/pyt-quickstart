@@ -42,7 +42,7 @@ class NeuralNetwork(nn.Module):
             nn.Tanh(),
             # -Linear, -Tanh as 4m # Accuracy: 73.5%, Avg loss: 1.341088
             nn.Linear(2512, 10),
-            nn.Mish() # 4m: Accuracy: 75.1%, Avg loss: 0.767739; 25 epochs Accuracy: 80.9%, Avg loss: 0.534439
+            nn.Mish() # 4m: Accuracy: 75.1%, Avg loss: 0.767739;
             # nn.Tanh(), # Accuracy: 70.9%, Avg loss: 1.445483
             # nn.Sigmoid() # Accuracy: 69.3%, Avg loss: 1.979252
         )
@@ -187,6 +187,11 @@ if __name__ == '__main__':
 
     batch_size = 64
     epochs = 5
+    # 4m:        5 epochs Accuracy: 75.2%, Avg loss: 0.767384;
+    #           25 epochs Accuracy: 80.9%, Avg loss: 0.534439;
+    #           50 epochs Accuracy: 82.5%, Avg loss: 0.488360;
+    #           90 epochs Accuracy: 83.5%, Avg loss: 0.462558
+    #          125 epochs Accuracy: 83.7%, Avg loss: 0.451608
     ds_data_root = "data"
     model_pth = ds_data_root + "/model.pth"
 
