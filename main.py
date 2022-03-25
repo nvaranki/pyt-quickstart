@@ -42,7 +42,7 @@ class NeuralNetwork(nn.Module):
             nn.Tanh(),
             # -Linear, -Tanh as 4m # Accuracy: 73.5%, Avg loss: 1.341088
             nn.Linear(2512, 10),
-            nn.Mish() # 4m: Accuracy: 75.1%, Avg loss: 0.767739
+            nn.Mish() # 4m: Accuracy: 75.1%, Avg loss: 0.767739; 25 epochs Accuracy: 80.9%, Avg loss: 0.534439
             # nn.Tanh(), # Accuracy: 70.9%, Avg loss: 1.445483
             # nn.Sigmoid() # Accuracy: 69.3%, Avg loss: 1.979252
         )
