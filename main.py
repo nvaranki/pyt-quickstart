@@ -199,9 +199,13 @@ def mkimage(i,bmp,prefix,suffix):
     import skimage.io
     import numpy as np
 
-    fname = f"image\\{prefix}\\{i:05d}-{suffix}.png"
+    fname = f"image/{prefix}"
+    if not os.path.exists(fname):
+        os.makedirs(fname, exist_ok = False)
+    fname += f"/{i:05d}-{suffix}.png"
     if os.path.exists(fname):
         return
+
     h = bmp.shape[1]
     w = bmp.shape[0]
     img = np.zeros((w, h, 3), dtype="uint8")
