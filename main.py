@@ -34,6 +34,24 @@ class Pow(Module):
 # Define model
 class NeuralNetwork(nn.Module):
 
+    grdB = Tensor([0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.0, ])
+    grdW = Tensor([
+        [[[+0.5, -0.5],
+          [ 0.0,  0.0]]],
+        [[[ 0.0,  0.0],
+          [+0.5, -0.5]]],
+        [[[+0.5,  0.0],
+          [-0.5,  0.0]]],
+        [[[ 0.0, +0.5],
+          [ 0.0, -0.5]]],
+        [[[+0.5,  0.0],
+          [ 0.0, -0.5]]],
+        [[[ 0.0, +0.5],
+          [-0.5,  0.0]]],
+        [[[0.25, 0.25],
+          [0.25, 0.25]]],
+    ])
+
     def __init__(self):
         super(NeuralNetwork, self).__init__()
         self.flatten = nn.Flatten()
@@ -47,23 +65,6 @@ class NeuralNetwork(nn.Module):
             # nn.Tanh(), # Accuracy: 70.9%, Avg loss: 1.445483
             # nn.Sigmoid() # Accuracy: 69.3%, Avg loss: 1.979252
         )
-        self.grdB = Tensor([0.5,0.5,0.5,0.5,0.5,0.5,0.0,])
-        self.grdW = Tensor([
-            [[[+0.5,-0.5],
-              [ 0.0, 0.0]]],
-            [[[ 0.0, 0.0],
-              [+0.5,-0.5]]],
-            [[[+0.5, 0.0],
-              [-0.5, 0.0]]],
-            [[[ 0.0,+0.5],
-              [ 0.0,-0.5]]],
-            [[[+0.5, 0.0],
-              [ 0.0,-0.5]]],
-            [[[ 0.0,+0.5],
-              [-0.5, 0.0]]],
-            [[[0.25,0.25],
-              [0.25,0.25]]],
-        ])
 
     def forward(self, x):
         x = F.conv2d(x, self.grdW, self.grdB, stride=1, padding=0)
@@ -71,12 +72,17 @@ class NeuralNetwork(nn.Module):
         logits = self.linear_relu_stack(x)
         return logits
 
+    def to(self, *args, **kwargs):
+        super(NeuralNetwork, self).to(*args, **kwargs)
+        self.grdW = self.grdW.to(*args, **kwargs)
+        self.grdB = self.grdB.to(*args, **kwargs)
+        return self
 
-def train(dataloader, model, loss_fn, optimizer, device,mi):
+
+def train(dataloader, model, loss_fn, optimizer, device, mi):
     size = len(dataloader.dataset)
     model.train()
     for batch, (X, y) in enumerate(dataloader):
-        X, y = X.to(device), y.to(device)
 
         if mi:
             bx = batch*64
@@ -84,8 +90,8 @@ def train(dataloader, model, loss_fn, optimizer, device,mi):
                 mkimage(bx+i,X[i,0,].numpy(),"train",y[i])
 
         # Compute prediction error
-        pred = model(X)
-        loss = loss_fn(pred, y)
+        pred = model(X.to(device))
+        loss = loss_fn(pred, y.to(device))
 
         # Backpropagation
         optimizer.zero_grad()
@@ -97,7 +103,7 @@ def train(dataloader, model, loss_fn, optimizer, device,mi):
             print(f"loss: {loss:>7f}  [{current:>5d}/{size:>5d}]")
 
 
-def test(dataloader, model, loss_fn):
+def test(dataloader, device, model, loss_fn):
     size = len(dataloader.dataset)
     num_batches = len(dataloader)
     model.eval()
@@ -113,7 +119,7 @@ def test(dataloader, model, loss_fn):
     print(f"Test Error: \n Accuracy: {(100*correct):>0.1f}%, Avg loss: {test_loss:>8f} \n")
 
 
-def train_and_save(training_data,test_data,batch_size,device,epochs,fname):
+def train_and_save(training_data, test_data, batch_size, device, epochs, fname):
 
     # Create the model
     model = NeuralNetwork().to(device)
@@ -133,7 +139,7 @@ def train_and_save(training_data,test_data,batch_size,device,epochs,fname):
     for t in range(epochs):
         print(f"Epoch {t + 1}\n-------------------------------")
         train(train_dataloader, model, loss_fn, optimizer, device, t==0)
-        test(test_dataloader, model, loss_fn)
+        test(test_dataloader, device, model, loss_fn)
     print("Training Done!")
 
     torch.save(model.state_dict(), fname)
@@ -144,8 +150,7 @@ def read_and_run(fname,test_data,device):
 
     model = NeuralNetwork().eval()
     model.load_state_dict(torch.load(fname))
-    # model.to(device)
-    # RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu! (when checking argument for argument mat1 in method wrapper_addmm)
+    model.to(device)
     print(f"Loaded PyTorch Model State from {fname}")
     print(model)
     classes = test_data.classes
@@ -159,7 +164,7 @@ def read_and_run(fname,test_data,device):
         x, y = test_data[i][0], test_data[i][1]
         mkimage(i,x[0,].numpy(),"test",y)
         with torch.no_grad():
-            pred = model(x.expand(1,-1,-1,-1))
+            pred = model(x.expand(1,-1,-1,-1).to(device))
             predicted, actual = int(pred[0].argmax(0)), y
             if predicted == actual:
                 print(f'{i:5d} Matched:   "{classes[predicted]}" {pred[0,predicted]:3.1f}')
