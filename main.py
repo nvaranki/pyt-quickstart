@@ -1,12 +1,9 @@
 # This is a sample Python script fom https://pytorch.org/tutorials/beginner/basics/quickstart_tutorial.html.
 
 import torch
-from torch import nn, Tensor
 from torch.utils.data import DataLoader
-import torch.nn.functional as F
 from torchvision import datasets
 from torchvision.transforms import ToTensor
-from torch.nn.modules import Module
 import numpy as np
 import os.path
 
@@ -19,115 +16,10 @@ def print_hi(name):
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
 
 
-class Pow(Module):
-
-    def __init__(self, t: float,
-                 device=None, dtype=None) -> None:
-        factory_kwargs = {'device': device, 'dtype': dtype}
-        super(Pow, self).__init__()
-        self.t = t
-
-    def forward(self, input: Tensor) -> Tensor:
-        return torch.pow(input,self.t)
-
-
-# Define model
-class NeuralNetwork(nn.Module):
-
-    grdB = Tensor([0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 0.0, ])
-    grdW = Tensor([
-        [[[+0.5, -0.5],
-          [ 0.0,  0.0]]],
-        [[[ 0.0,  0.0],
-          [+0.5, -0.5]]],
-        [[[+0.5,  0.0],
-          [-0.5,  0.0]]],
-        [[[ 0.0, +0.5],
-          [ 0.0, -0.5]]],
-        [[[+0.5,  0.0],
-          [ 0.0, -0.5]]],
-        [[[ 0.0, +0.5],
-          [-0.5,  0.0]]],
-        [[[0.25, 0.25],
-          [0.25, 0.25]]],
-    ])
-
-    def __init__(self):
-        super(NeuralNetwork, self).__init__()
-        self.flatten = nn.Flatten()
-        self.linear_relu_stack = nn.Sequential(
-            nn.Linear(7*27*27, 2512),
-            # Pow(2), #  4m: nn.Mish() Accuracy: 75.0%, Avg loss: 0.769570
-            nn.Tanh(),
-            # -Linear, -Tanh as 4m # Accuracy: 73.5%, Avg loss: 1.341088
-            nn.Linear(2512, 10),
-            nn.Mish() # 4m: Accuracy: 75.1%, Avg loss: 0.767739;
-            # nn.Tanh(), # Accuracy: 70.9%, Avg loss: 1.445483
-            # nn.Sigmoid() # Accuracy: 69.3%, Avg loss: 1.979252
-        )
-
-    def forward(self, x):
-        x = F.conv2d(x, self.grdW, self.grdB, stride=1, padding=0)
-        x = self.flatten(x)
-        logits = self.linear_relu_stack(x)
-        return logits
-
-    def to(self, *args, **kwargs):
-        super(NeuralNetwork, self).to(*args, **kwargs)
-        self.grdW = self.grdW.to(*args, **kwargs)
-        self.grdB = self.grdB.to(*args, **kwargs)
-        return self
-
-
-def train(dataloader, model, loss_fn, optimizer, device, mi):
-    size = len(dataloader.dataset)
-    model.train()
-    for batch, (X, y) in enumerate(dataloader):
-
-        if mi:
-            bx = batch*64
-            for i in range(X.shape[0]):
-                mkimage(bx+i,X[i,0,].numpy(),"train",y[i])
-
-        # Compute prediction error
-        pred = model(X.to(device))
-        loss = loss_fn(pred, y.to(device))
-
-        # Backpropagation
-        optimizer.zero_grad()
-        loss.backward()
-        optimizer.step()
-
-        if batch % 100 == 0:
-            loss, current = loss.item(), batch * len(X)
-            print(f"loss: {loss:>7f}  [{current:>5d}/{size:>5d}]")
-
-
-def test(dataloader, device, model, loss_fn):
-    size = len(dataloader.dataset)
-    num_batches = len(dataloader)
-    model.eval()
-    test_loss, correct = 0, 0
-    with torch.no_grad():
-        for X, y in dataloader:
-            X, y = X.to(device), y.to(device)
-            pred = model(X)
-            test_loss += loss_fn(pred, y).item()
-            correct += (pred.argmax(1) == y).type(torch.float).sum().item()
-    test_loss /= num_batches
-    correct /= size
-    print(f"Test Error: \n Accuracy: {(100*correct):>0.1f}%, Avg loss: {test_loss:>8f} \n")
-
-
 def train_and_save(training_data, test_data, batch_size, device, epochs, fname):
 
-    # Create the model
-    model = NeuralNetwork().to(device)
-    print(model)
-
-    # To train a model, we need a loss function and an optimizer.
-    loss_fn = nn.CrossEntropyLoss()
-    optimizer = torch.optim.SGD(model.parameters(), lr=1e-3)
+    from net.Trainer import Trainer
+    trainer = Trainer(device, 1e-3)
 
     train_dataloader = DataLoader(training_data, batch_size=batch_size)
     test_dataloader = DataLoader(test_data, batch_size=batch_size)
@@ -136,25 +28,20 @@ def train_and_save(training_data, test_data, batch_size, device, epochs, fname):
         print(f"Shape of y: {y.shape} {y.dtype}")
         break
 
-    for t in range(epochs):
-        print(f"Epoch {t + 1}\n-------------------------------")
-        train(train_dataloader, model, loss_fn, optimizer, device, t==0)
-        test(test_dataloader, device, model, loss_fn)
+    model = trainer.run(train_dataloader, test_dataloader, epochs)
     print("Training Done!")
 
     torch.save(model.state_dict(), fname)
     print(f"Saved PyTorch Model State to {fname}")
 
 
-def read_and_run(fname,test_data,device):
+def read_and_run(fname, test_data, device, good=False, bad=False, hist=False, summ=True):
 
-    model = NeuralNetwork().eval()
-    model.load_state_dict(torch.load(fname))
-    model.to(device)
-    print(f"Loaded PyTorch Model State from {fname}")
-    print(model)
+    from net.Runner import Runner
+    runner = Runner(device, fname)
     classes = test_data.classes
     print(classes)
+    print(f"Loaded PyTorch Model State from {fname}")
 
     h_cat_matched = []
     h_cat_missed  = []
@@ -164,35 +51,41 @@ def read_and_run(fname,test_data,device):
         x, y = test_data[i][0], test_data[i][1]
         mkimage(i,x[0,].numpy(),"test",y)
         with torch.no_grad():
-            pred = model(x.expand(1,-1,-1,-1).to(device))
+            pred = runner.infer(x.expand(1,-1,-1,-1))
             predicted, actual = int(pred[0].argmax(0)), y
             if predicted == actual:
-                print(f'{i:5d} Matched:   "{classes[predicted]}" {pred[0,predicted]:3.1f}')
+                if good:
+                    print(f'{i:5d} Matched:   "{classes[predicted]}" {pred[0,predicted]:3.1f}')
                 h_cat_matched.append(predicted)
                 h_val_matched.append(pred[0,predicted].item())
             else:
-                print(f'{i:5d} Predicted: "{classes[predicted]}" {pred[0,predicted]:3.1f}, Actual: "{classes[actual]}" {pred[0,actual]:3.1f}')
+                if bad:
+                    print(f'{i:5d} Predicted: "{classes[predicted]}" {pred[0,predicted]:3.1f}, Actual: "{classes[actual]}" {pred[0,actual]:3.1f}')
                 h_cat_missed.append(predicted)
                 h_val_missed.append(pred[0,predicted].item())
-    np.set_printoptions(precision=1)
-    print('Category Guess Histogram')
-    print('Matched')
-    hist, bins = np.histogram(h_cat_matched)
+    if hist:
+        np.set_printoptions(precision=1)
+        print('Category Guess Histogram')
+        t_cat_matched = print_hist('Matched', h_cat_matched, range(len(classes)+1))[0]
+        t_cat_missed  = print_hist('Missed',  h_cat_missed,  range(len(classes)+1))[0]
+        print(f'Quality\n{np.multiply(100,np.divide(t_cat_matched,np.add(t_cat_matched,t_cat_missed)))}')
+        print('Value Guess Histogram')
+        print_hist('Matched', h_val_matched, range(0, 22, 2))
+        print_hist('Missed', h_val_missed, range(0, 22, 2))
+        np.set_printoptions()
+    if summ:
+        n_cat_matched = len(h_cat_matched)
+        n_cat_missed = len(h_cat_missed)
+        n_cat_total = n_cat_matched + n_cat_missed
+        print(f'Summary: {n_cat_matched}={float(n_cat_matched)/n_cat_total:.1%} matched, {n_cat_missed}={float(n_cat_missed)/n_cat_total:.1%} missed, {n_cat_total} total')
+
+
+def print_hist(title: str, data, *args, **kwargs) -> tuple:
+    hist, bins = np.histogram(data, *args, **kwargs)
+    print(title)
     print(hist)
     print(bins)
-    print('Missed')
-    hist, bins = np.histogram(h_cat_missed)
-    print(hist)
-    print(bins)
-    print('Value Guess Histogram')
-    print('Matched')
-    hist, bins = np.histogram(h_val_matched,range(0,22,2))
-    print(hist)
-    print(bins)
-    print('Missed')
-    hist, bins = np.histogram(h_val_missed,range(0,22,2))
-    print(hist)
-    print(bins)
+    return (hist,bins)
 
 
 def mkimage(i,bmp,prefix,suffix):
@@ -257,7 +150,7 @@ if __name__ == '__main__':
         train_and_save(training_data, test_data, batch_size, device, epochs, model_pth)
 
     # run the model
-    read_and_run(model_pth,test_data,device)
+    read_and_run(model_pth,test_data,device,hist=True)
 
     print_hi('PyCharm')
 
